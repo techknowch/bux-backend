@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Backend\HomeController;
+use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FrontendController::class, 'index'])->name('home');
+Route::get('capabilities', [FrontendController::class, 'capabilities'])->name('capabilities');
+Route::get('about', [FrontendController::class, 'about'])->name('about');
+Route::get('contact', [FrontendController::class, 'contact'])->name('contact');
+Route::get('it-management-consultancy', [FrontendController::class, 'consultancy'])->name('consultancy');
+Route::get('it-resourcing', [FrontendController::class, 'resourcing'])->name('resourcing');
+Route::get('cybersecurity', [FrontendController::class, 'cybersecurity'])->name('cybersecurity');
+Route::get('artificial-intelligence', [FrontendController::class, 'ai'])->name('ai');
 
 Route::middleware([
     'auth:sanctum',
@@ -23,6 +30,6 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('backend.home');
     })->name('dashboard');
 });
