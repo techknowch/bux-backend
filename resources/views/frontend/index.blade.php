@@ -6,7 +6,7 @@
         <div class="sb-wrapper">
           <div class="sb-title-wrap">
             <h1 class="sb-heading">
-              Information Technology and Management Consulting
+              bisnsdndkasInformation Technology and Management Consulting
             </h1>
             <div class="sb-title-row not-load">
               <div class="sb-title">
