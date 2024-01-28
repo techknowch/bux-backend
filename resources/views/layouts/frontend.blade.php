@@ -63,6 +63,7 @@
   <link rel="stylesheet" href="bundles/app/html-code.31d6cfe0.css">
   <link rel="stylesheet" href="bundles/app/image-video-text.0072e3b9.css">
   <link rel="stylesheet" href="bundles/app/home_page.2ba9c976.css">
+  @yield('styles')
   <script>
     window.dataLayer = window.dataLayer || [];
     window.editmode = 0;
@@ -419,5 +420,6 @@
   });
 </script>
 
+@yield('scripts')
 
 </html>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Backend\HomeController;
+use App\Http\Controllers\ConsultationController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,6 +24,7 @@ Route::get('it-management-consultancy', [FrontendController::class, 'consultancy
 Route::get('it-resourcing', [FrontendController::class, 'resourcing'])->name('resourcing');
 Route::get('cybersecurity', [FrontendController::class, 'cybersecurity'])->name('cybersecurity');
 Route::get('artificial-intelligence', [FrontendController::class, 'ai'])->name('ai');
+Route::post('/consultation', [ConsultationController::class, 'store'])->name('consultation.store');
 
 Route::middleware([
     'auth:sanctum',
