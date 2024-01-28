@@ -208,7 +208,7 @@
 }
 
 #about--sec--bux .about--sec--bux--wrapper {
-  max-width: 1320px;
+  max-width: 1200px;
   margin: 48px auto;
 }
 
@@ -529,17 +529,17 @@
 #vision .vision--container .row .flex .flex-items .iconbox {
   background-color: #007de7;
   border-radius: 50%;
-  width: 48px;
+  width: 55px;
   height: 23px;
   text-align: center;
 }
 
 #vision .vision--container .row .flex .flex-items:nth-child(2) > .iconbox {
-  width: 38px;
+  width: 40px;
 }
 
 #vision .vision--container .row .flex .flex-items:nth-child(3) > .iconbox {
-  width: 63px;
+  width: 68px;
 }
 
 #vision .vision--container .row .flex .flex-items:hover {
