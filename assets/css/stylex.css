@@ -1136,6 +1136,9 @@
 
 #choices .choices--container .choices--row > .col-lg-6 > .bottom-content > p {
   font-size: 16px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 > .bottom-content {
   margin-bottom: 48px;
 }
 
