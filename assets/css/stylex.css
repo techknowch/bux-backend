@@ -1172,3 +1172,91 @@
   p:hover {
   text-decoration: underline;
 }
+
+#services--section {
+  margin: 38px 0;
+  padding: 100px 0;
+  background-color: #002147;
+}
+
+#services--section .services--container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services--section .services--container .services--row {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #services--section .services--container .services--row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#services--section.services--container.services--row > .col-lg-6 {
+  width: calc((100% - 60px) / 2);
+  color: #ffffff;
+}
+
+#services--section .services--container .services--row .col-lg-6,
+#services--section .services--container .services--row p,
+#services--section .services--container .services--row h1,
+#services--section .services--container .services--row h2,
+#services--section .services--container .services--row h3,
+#services--section .services--container .services--row h4,
+#services--section .services--container .services--row h5,
+#services--section .services--container .services--row h6 {
+  color: #ffffff;
+}
+#services--section .services--container .services--row h2:before {
+  content: none;
+}
+#services--section .services--container .services--row h2 {
+  margin: 8px 0 !important;
+}
+
+#services--section
+  .services--container
+  .services--row
+  .col-lg-6
+  .services--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+#services--section
+  .services--container
+  .services--row
+  .col-lg-6
+  .services--grid
+  .grid--items {
+  background-color: #ffffff;
+  padding: 63px 14px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+#services--section
+  .services--container
+  .services--row
+  .col-lg-6
+  .services--grid
+  .grid--items:hover {
+  transform: translateY(-10px);
+}
+#services--section
+  .services--container
+  .services--row
+  .col-lg-6
+  .grid--items
+  p {
+  margin-bottom: 0;
+  color: #242020;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

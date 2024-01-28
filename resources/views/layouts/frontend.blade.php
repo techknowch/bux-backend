@@ -230,7 +230,7 @@
             </a>
           </div>
           <div class=" header-menu-item">
-            <a href="#" class="header-menu-item-label js-track-click" itemprop="url"
+            <a href="{{ route('services') }}" class="header-menu-item-label js-track-click" itemprop="url"
               data-track-element="item">
               <span itemprop="name">Services</span>
             </a>
@@ -276,7 +276,7 @@
           </a>
         </div>
         <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Services">
-          <a href="#" class="header-menu-mobile-item-label " itemprop="url">
+          <a href="{{ route('services') }}" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">Services</span>
           </a>
         </div>
