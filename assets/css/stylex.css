@@ -512,6 +512,7 @@
 
 #vision .vision--container .row .flex .flex-items {
   background-color: #fff;
+  border-radius: 3px;
   padding: 9px 12px;
   color: #051c2c;
   cursor: pointer;
