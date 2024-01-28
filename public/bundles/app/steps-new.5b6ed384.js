@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[9497],{27797:function(){}},function(s){var e;e=27797,s(s.s=e)}]);
