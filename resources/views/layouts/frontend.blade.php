@@ -11,14 +11,12 @@
     content="A leading software development company 🏆 3,600+ completed projects. High-quality software delivered on time. 1,220+ satisfied customers.">
   <link rel="alternate" hreflang="en" href="{{ route('home') }}" />
   <link rel="alternate" hreflang="x-default" href="{{ route('home') }}" />
-  <link rel="alternate" hreflang="de" href="https://www.scnsoft.de/" />
-  <link rel="alternate" hreflang="fi" href="fi.html" />
-  <link rel="alternate" hreflang="ar" href="ar.html" />
   <meta property="og:type" content="website">
   <meta property="og:title" content="BuxBusinesses">
   <meta property="og:url" content="{{ route('home') }}">
   <meta property="og:description"
     content="A leading software development company 🏆 3,600+ completed projects. High-quality software delivered on time. 1,220+ satisfied customers.">
+  <meta name="robots" content="noindex">
   <link rel="preload" href="bundles/app/fonts/OpenSans-Regular-webfont.woff2" as="font" type="font/woff2"
     crossorigin="anonymous">
   <link rel="preload" href="bundles/app/fonts/OpenSans-Semibold-webfont.woff2" as="font" type="font/woff2"
