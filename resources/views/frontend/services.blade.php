@@ -58,18 +58,23 @@
               <div class="main--form">
                 <p class="heading">Send Us A Message</p>
                 <p>Our response time is within 30 minutes during business hours</p>
-                <form action="">
+                <form action="{{ route('consultation.store') }}" method="POST">
+                  @csrf
                   <div class="input--grid">
                     <input type="text" name="first_name" placeholder="First Name">
                     <input type="text" name="last_name" placeholder="Last Name">
-                    <input type="number" name="phone" placeholder="Phone Number">
+                    <input type="number" name="phone_number" placeholder="Phone Number">
                     <input type="email" name="email" placeholder="Email Address">
                   </div>
                   <div class="flex--form">
-                    <select name="" id="">
-                      <option value="">Service Type</option>
+                    <select name="service_type" id="">
+                      <option value="" selected disabled>Service Type</option>
+                      <option value="IT Management Consultancy">IT Management Consultancy</option>
+                      <option value="IT Resourcing">IT Resourcing</option>
+                      <option value="Cybersecurity">Cybersecurity</option>
+                      <option value="Artificial Intelligence">Artificial Intelligence</option>
                     </select>
-                    <textarea name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
                     <div class="button-style-2">
                       <input type="submit" class="btn-style-2" value="Submit"></a>
                     </div>
