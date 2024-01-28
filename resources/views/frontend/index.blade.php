@@ -950,7 +950,7 @@
                 duration: 3000,
                 gravity: 'top',
                 close: true,
-                backgroundColor: '#A52A2A',
+                backgroundColor: '#D22B2B',
                 style: {
                     'font-size': "16px",
                 }

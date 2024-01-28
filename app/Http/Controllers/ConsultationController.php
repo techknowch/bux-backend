@@ -30,8 +30,9 @@ class ConsultationController extends Controller
             $data['email'] = $request->email;
             $data['service_type'] = $request->service_type;
             $data['message'] = $request->message;
-
+            DB::beginTransaction();
             $consultation = Consultation::create($data);
+            DB::commit();
 
             return redirect()->route('home')->with('success', 'Contact Created Successfully');
         }

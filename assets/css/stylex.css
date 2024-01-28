@@ -266,6 +266,20 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 786px) {
+  #about--sec--bux .about--sec--bux--wrapper .flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+  }
+  #about--sec--bux .about--sec--bux--wrapper .flexbox .flexitem:nth-child(1) {
+    height: fit-content;
+  }
+  #about--sec--bux .about--sec--bux--wrapper .flexbox .flexitem:nth-child(2) {
+    display: none;
+  }
+}
+
 #explore--our--services {
   margin: 38px 0;
 }
@@ -1072,4 +1086,86 @@
   svg
   path {
   fill: #fff;
+}
+#choices {
+  background-color: #eff7ff;
+  padding: 100px 0;
+}
+#choices .choices--container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#choices .choices--container .choices--row {
+  display: flex;
+  gap: 60px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 .image--wrapper img {
+  border-radius: 5px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 {
+  width: calc((100% - 60px) / 2);
+}
+
+@media only screen and (max-width: 768px) {
+  #choices .choices--container .choices--row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #choices .choices--container .choices--row > .col-lg-6 {
+    width: 100%;
+  }
+  #choices .choices--container .choices--row > .col-lg-6 .image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  #choices .choices--container .choices--row > .col-lg-6 .button-style-2 {
+    width: 75%;
+  }
+}
+
+#choices .choices--container .choices--row > .col-lg-6 > .content > p {
+  color: #687489;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d8d9dc;
+  font-size: 16px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 > .bottom-content > p {
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 .button-style-2 {
+  width: 55%;
+}
+
+#choices
+  .choices--container
+  .choices--row
+  > .col-lg-6
+  .button-style-2
+  .btn-style-2 {
+  padding: 18px 50px;
+}
+
+#choices .choices--container .choices--row > .col-lg-6 > .content .flex {
+  display: flex;
+  justify-content: space-between;
+}
+#choices .choices--container .choices--row > .col-lg-6 > .content .flex p {
+  font-size: 14px;
+  cursor: pointer;
+}
+#choices
+  .choices--container
+  .choices--row
+  > .col-lg-6
+  > .content
+  .flex
+  p:hover {
+  text-decoration: underline;
 }
