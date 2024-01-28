@@ -271,28 +271,28 @@
           </a>
         </div>
         <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="About">
-          <a href="about-us.html" class="header-menu-mobile-item-label " itemprop="url">
+          <a href="{{ route('about') }}" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">About</span>
           </a>
         </div>
         <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Services">
-          <a href="services.html" class="header-menu-mobile-item-label " itemprop="url">
+          <a href="#" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">Services</span>
           </a>
         </div>
         <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Capabilities">
-          <a href="capabilities.html" class="header-menu-mobile-item-label " itemprop="url">
+          <a href="{{ route('capabilities') }}" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">Capabilities</span>
           </a>
         </div>
         <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Blog">
-          <a href="blogs.html" class="header-menu-mobile-item-label " itemprop="url">
+          <a href="#" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">Blog</span>
           </a>
         </div>
         <div class="header-menu-mobile-item header-yellow-button js-track-click" data-track-element="item"
           data-track-text="Contact us">
-          <a href="contact-us.html" class="header-menu-mobile-item-label header-yellow-button-label" itemprop="url">
+          <a href="{{ route('contact') }}" class="header-menu-mobile-item-label header-yellow-button-label" itemprop="url">
             <span itemprop="name">Contact us</span>
           </a>
         </div>
