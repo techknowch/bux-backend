@@ -805,13 +805,6 @@
           </div>
         </section>
       </div>
-      <div class="pimcore_area_wysiwyg pimcore_area_content ">
-        <div class="container waypoint" data-track-source="Editable: Wysiwyg">
-          <section class="a-wysiwyg fade-in">
-            <p>&nbsp; &nbsp; &nbsp; &nbsp;</p>
-          </section>
-        </div>
-      </div>
       <div class="pimcore_area_recognitions pimcore_area_content ">
         <section class="a-partners recognition-wrapper  waypoint " data-track-source="Editable: HP Recognitions">
           <div class="container">
