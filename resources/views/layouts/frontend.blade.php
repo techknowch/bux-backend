@@ -239,11 +239,11 @@
               <span itemprop="name">Capabilities</span>
             </a>
           </div>
-          <div class=" header-menu-item">
+          <!-- <div class=" header-menu-item">
             <a href="#" class="header-menu-item-label js-track-click" itemprop="url" data-track-element="item">
               <span itemprop="name">Blog</span>
             </a>
-          </div>
+          </div> -->
           <div class="header-menu-page-shadow d-none"></div>
         </nav>
         <div class="header-yellow-buttons" data-track-source="Header menu">
@@ -283,11 +283,11 @@
             <span itemprop="name">Capabilities</span>
           </a>
         </div>
-        <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Blog">
+        <!-- <div class="header-menu-mobile-item js-track-click" data-track-element="item" data-track-text="Blog">
           <a href="#" class="header-menu-mobile-item-label " itemprop="url">
             <span itemprop="name">Blog</span>
           </a>
-        </div>
+        </div> -->
         <div class="header-menu-mobile-item header-yellow-button js-track-click" data-track-element="item"
           data-track-text="Contact us">
           <a href="{{ route('contact') }}" class="header-menu-mobile-item-label header-yellow-button-label" itemprop="url">
@@ -296,16 +296,17 @@
         </div>
         <div class="header-menu-mobile-contacts">
           <a href="tel:+1 518 951 0353" class="header-menu-mobile-phone">
-            <i class="icon-s-phone-bordered"></i>
-            <span class="header-menu-mobile-phone-text" dir="ltr">+1 518 951 0353</span>
+            <i class="icon-s-phone-bordered" style="color: #000 !important;"></i>
+            <span class="header-menu-mobile-phone-text" dir="ltr">+518 951 0353</span>
           </a>
           <a href="mailto:help@company.com" class="header-menu-mobile-email">
             <i class="icon-s-envelope"></i>
-            <span class="header-menu-mobile-email-text" dir="ltr">help@company.com</span>
+            <span class="header-menu-mobile-email-text" dir="ltr">moeen@buxbusinesses.com</span>
           </a>
         </div>
       </div>
     </div>
+    <div class="header-menu-mobile-shadow js-track-click" data-track-source="Header mobile menu" data-track-element="button" data-track-text="Close mobile menu"></div>
   </header>
 
 @yield('content')
@@ -409,7 +410,7 @@
     slidesPerView: 1,
     spaceBetween: 20, // Adjust the value based on your desired gap
     autoplay: {
-      delay: 50000,
+      delay: 5000,
       disableOnInteraction: false,
     },
     pagination: {

@@ -1311,7 +1311,6 @@ a {
 }
 
 a:not([class]) {
-  text-decoration: underline;
   text-decoration-color: #005eb8;
   text-underline-offset: 2px;
   transition: color 0.12s ease-in-out;
@@ -8002,7 +8001,7 @@ a.header-menu-item-label:visited {
   position: absolute;
   top: 50%;
   left: 22%;
-  font-size: 68px;
+  font-size: 50px;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
