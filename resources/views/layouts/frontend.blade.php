@@ -338,6 +338,9 @@
                 <p><a href="{{ route('services') }}">Services</a></p>
               </li>
               <li>
+                <p><a href="{{ route('contact') }}">Contact</a></p>
+              </li>
+              <li>
                 <p><a href="{{ route('capabilities') }}">Capabilities</a></p>
               </li>
               <!-- <li>
