@@ -563,87 +563,239 @@
         </section>
       </div>
       <div class="pimcore_area_testimonial pimcore_area_content ">
-        <section id="testimonials">
+      <section id="testimonials">
           <div class="container">
             <h2 class="a-section__title h2 step-up 1 ">
               <span id="Awards" class="not-hover-link" name="Awards">Testimonials from our Clients</span>
             </h2>
           </div>
-          <div class="testimonials--wrapper">
-            <div class="grid">
-              <div class="grid-items">
+          <div class="testimonials--wrapper swiper">
+            <div class="grid swiper-wrapper">
+              <div class="grid-items swiper-slide">
                 <div class="quote">
                   <img src="./assets/imgs/quito2.png" alt="">
                 </div>
                 <div class="content">
                   <div class="reviews">
-                    <img src="./assets/imgs/Screenshot_20240120_171710.png" alt="">
                   </div>
                   <div class="client--reviews">
-                    <p>"Exceptional service and expertise! I had the pleasure of working with XYZ Solutions on a complex IT project. Their team's attention to detail, professionalism, and commitment to delivering results surpassed my expectations. I highly recommend XYZ Solutions for anyone seeking top-tier consulting services."</p>
+                    <p>"I have been fortunate to work with Moeen on several high profile projects. He served as the
+                      project manager and helped
+                      us plan and successfully execute important initiatives. Moeen is a consummate professional, is
+                      responsive and develops
+                      strong relationships with team members. I would welcome any opportunity to work with Moeen in the
+                      future"</p>
                   </div>
                   <div class="client--details">
                     <div class="client--image">
-                      <img src="./assets/imgs/testomonial1.png" alt="">
+                      <img class="testimonial-img" src="./assets/imgs/testmonial-1.jpg" alt="">
                     </div>
                     <div class="information">
                       <div class="name">
-                        <p>Tina Wilkinson</p>
+                        <p>Donald Messier</p>
                       </div>
                       <div class="profession">
-                        <p>CEO, Wingree Ltd</p>
+                        <p>Corporate Development, National Life Group</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="grid-items">
+              <div class="grid-items swiper-slide">
                 <div class="quote">
                   <img src="./assets/imgs/quito2.png" alt="">
                 </div>
                 <div class="content">
                   <div class="reviews">
-                    <img src="./assets/imgs/Screenshot_20240120_171710.png" alt="">
                   </div>
                   <div class="client--reviews">
-                    <p>"Exceptional service and expertise! I had the pleasure of working with XYZ Solutions on a complex IT project. Their team's attention to detail, professionalism, and commitment to delivering results surpassed my expectations. I highly recommend XYZ Solutions for anyone seeking top-tier consulting services."</p>
+                    <p>"I had the pleasure of working with Moeen in many complex portal projects. Moeen is a very
+                      dedicated and talented project
+                      management professional .He always creates an easy environment for his colleagues and his staff to
+                      work in and binds the
+                      team together. Moeen demonstrated strong leadership and motivational skills, and excelled in
+                      understanding complex
+                      business issues to come up with a plan to implement them. I highly recommend Moeen and he would be
+                      an asset to any organization"</p>
                   </div>
                   <div class="client--details">
                     <div class="client--image">
-                      <img src="./assets/imgs/testomonial1.png" alt="">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-2.jpg" alt="">
                     </div>
                     <div class="information">
                       <div class="name">
-                        <p>Tina Wilkinson</p>
+                        <p>Raghavarao S</p>
                       </div>
                       <div class="profession">
-                        <p>CEO, Wingree Ltd</p>
+                        <p>Principal Solutions Architect, (AWS)</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="grid-items">
+              <div class="grid-items swiper-slide">
                 <div class="quote">
                   <img src="./assets/imgs/quito2.png" alt="">
                 </div>
                 <div class="content">
                   <div class="reviews">
-                    <img src="./assets/imgs/Screenshot_20240120_171710.png" alt="">
                   </div>
                   <div class="client--reviews">
-                    <p>"Exceptional service and expertise! I had the pleasure of working with XYZ Solutions on a complex IT project. Their team's attention to detail, professionalism, and commitment to delivering results surpassed my expectations. I highly recommend XYZ Solutions for anyone seeking top-tier consulting services."</p>
+                    <p>"I have had the distinct pleasure of working with Moeen Uddin on several very challenging
+                      projects. Moeen is well versed
+                      in all aspects and methodologies of project management. Moreover, he is talented, intelligent, and
+                      self-disciplined.
+
+                      He excels at working with diverse groups and teams. I have witnessed first hand his ability to
+                      bring people together in
+                      a complex, multi-vendor environment to focus on the task at hand, leading ultimately to the
+                      success of the project. He
+                      has a gift for keeping people focused and on track.
+
+                      He is exceptionally skilled at managing resources. I would unequivocally state that Moeen is equal
+                      to successfully
+                      managing any project that he undertakes."</p>
                   </div>
                   <div class="client--details">
                     <div class="client--image">
-                      <img src="./assets/imgs/testomonial1.png" alt="">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-4.jpg" alt="">
                     </div>
                     <div class="information">
                       <div class="name">
-                        <p>Tina Wilkinson</p>
+                        <p>Michael Starr</p>
                       </div>
                       <div class="profession">
-                        <p>CEO, Wingree Ltd</p>
+                        <p>Chief Architect, Northstarr System Solutions, Ltd.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-items swiper-slide">
+                <div class="quote">
+                  <img src="./assets/imgs/quito2.png" alt="">
+                </div>
+                <div class="content">
+                  <div class="reviews">
+                  </div>
+                  <div class="client--reviews">
+                    <p>"Moeen is a detailed oriented manager. He posses excellent people mgmt skills and is very good at
+                      project planning and
+                      execution. Moeen has been very instrumental in building strong customer relationship at FIS and
+                      was well appreciated for
+                      his managerial skills."</p>
+                  </div>
+                  <div class="client--details">
+                    <div class="client--image">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-5.jpg" alt="">
+                    </div>
+                    <div class="information">
+                      <div class="name">
+                        <p>Virendra Yadav</p>
+                      </div>
+                      <div class="profession">
+                        <p>Business Segment Head-Global, Innova Solutions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-items swiper-slide">
+                <div class="quote">
+                  <img src="./assets/imgs/quito2.png" alt="">
+                </div>
+                <div class="content">
+                  <div class="reviews">
+                  </div>
+                  <div class="client--reviews">
+                    <p>"Moeen is an excellent project manager and a delight for/with which to work. Always with a great
+                      attitude, his attention
+                      to detail and motivation techniques were excellent and effective. With his strong and extensive
+                      background, his detailed
+                      research and subsequent recommendations were always spot on allowing even complex projects to have
+                      little-to-no
+                      unforseen obstacles and to move past those found with minimal added effort. Because of this and
+                      his ability to get
+                      projects done, his metrics were always accurate. I value his project management abilities and
+                      recommend Moeen as an
+                      excellent addition to any team and company."</p>
+                  </div>
+                  <div class="client--details">
+                    <div class="client--image">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-6.jpg" alt="">
+                    </div>
+                    <div class="information">
+                      <div class="name">
+                        <p>Jerry Cloud</p>
+                      </div>
+                      <div class="profession">
+                        <p>Senior Programmer, Voya Financial</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-items swiper-slide">
+                <div class="quote">
+                  <img src="./assets/imgs/quito2.png" alt="">
+                </div>
+                <div class="content">
+                  <div class="reviews">
+                  </div>
+                  <div class="client--reviews">
+                    <p>"It was a pleasure working with Moeen. Moeen was a Senior Consultant at Keane in an engagement at
+                      Fidelity National
+                      Information Services. He was extremely professional, and knowledgeable. Moeen has exceptional
+                      analytical and
+                      communication skills and he is able to keep calm and focused under pressure."</p>
+                  </div>
+                  <div class="client--details">
+                    <div class="client--image">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-7.jpg" alt="">
+                    </div>
+                    <div class="information">
+                      <div class="name">
+                        <p>Doreen O'Keefe</p>
+                      </div>
+                      <div class="profession">
+                        <p>Global Media Products, The Nielsen Company</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-items swiper-slide">
+                <div class="quote">
+                  <img src="./assets/imgs/quito2.png" alt="">
+                </div>
+                <div class="content">
+                  <div class="reviews">
+                  </div>
+                  <div class="client--reviews">
+                    <p>"I had the pleasure of working with Moeen on multiple complex, highly visible and demanding
+                      Programs/Projects. In each
+                      instance he has been able to deliver results, against all odds in multiple instances. Moeen has
+                      been able to effectively
+                      align resources, drive collaboration and execution across a large, diverse and complicated
+                      environment comprised of
+                      multiple teams/vendors. I have witnessed and participated in multiple call-to-action meetings
+                      where Moeen has pulled
+                      together working groups and remains engaged through the night and day till the project is
+                      realigned. He is an extremely
+                      committed and dedicated program manager. Moeen has proven time and time again that he is a
+                      consummate professional
+                      capable of executing on whatever is put before him."</p>
+                  </div>
+                  <div class="client--details">
+                    <div class="client--image">
+                      <img class="testimonial-img" src="./assets/imgs/testimonial-3.png" alt="">
+                    </div>
+                    <div class="information">
+                      <div class="name">
+                        <p>Mario Russo</p>
+                      </div>
+                      <div class="profession">
+                        <p>Director IT, National Life Group</p>
                       </div>
                     </div>
                   </div>
@@ -721,7 +873,7 @@
           </div>
         </section>
       </div>
-      <div class="pimcore_area_blog pimcore_area_content ">
+      <!-- <div class="pimcore_area_blog pimcore_area_content ">
         <section class="a-blog waypoint " data-track-source="Editable: HP Blog">
           <div class="container">
             <h2 class="a-section__title h2 step-up 1 ">
@@ -837,9 +989,8 @@
                 </a>
             </div>
           </div>
-          <!-- container -->
         </section>
-      </div>
+      </div> -->
 
       <section id="consultation">
         <div class="container">
@@ -870,8 +1021,8 @@
                       <option value="Artificial Intelligence">Artificial Intelligence</option>
                     </select>
                     <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
-                    <div class="button-style-2">
-                      <input type="submit" class="btn-style-2" value="Submit"></a>
+                    <div>
+                      <input type="submit" class="form-btn-style-1" value="Submit"></a>
                     </div>
                   </div>
                 </form>
