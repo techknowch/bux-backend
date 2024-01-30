@@ -332,17 +332,17 @@
             </h4>
             <ul class="footer-items-list">
               <li>
-                <p><a href="about-us.html">About</a></p>
+                <p><a href="{{ route('about') }}">About</a></p>
               </li>
               <li>
-                <p><a href="services.html">Services</a></p>
+                <p><a href="{{ route('services') }}">Services</a></p>
               </li>
               <li>
-                <p><a href="capabilities.html">Capabilities</a></p>
+                <p><a href="{{ route('capabilities') }}">Capabilities</a></p>
               </li>
-              <li>
+              <!-- <li>
                 <p><a href="blogs.html">Blogs</a></p>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="footer-contacts-links-item footer-flex">
