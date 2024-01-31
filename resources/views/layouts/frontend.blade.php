@@ -34,9 +34,8 @@
   <link rel="preload" href="bundles/app/fonts/s-icons.woff" as="font" type="font/woff" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/stylex.css">
-  {{-- Check if the current route is 'contact' --}}
+
 @if(Request::is('contact'))
-    {{-- Include the stylesheet only if the current route is 'contact' --}}
     <link rel="stylesheet" href="{{ asset('assets/css/form.css') }}">
 @endif
 
