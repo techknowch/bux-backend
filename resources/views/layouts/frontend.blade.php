@@ -42,7 +42,6 @@
 <link rel="preload" href="bundles/app/fonts/Sumana400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="bundles/app/fonts/Sumana700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="bundles/app/fonts/s-icons.woff" as="font" type="font/woff" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/stylex.css">
   <link rel="stylesheet" href="bundles/app/services.2d9023af.css">
   <link rel="stylesheet" href="bundles/app/recognitions.53de5d46.css">

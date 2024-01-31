@@ -50,7 +50,7 @@
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 1140px !important;
     }
 }
 
@@ -100,9 +100,9 @@
 
 .wrapper {
     width: 100%;
-    -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
-    box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18) !important;
+    -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18) !important;
+    box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18) !important;
 }
 
 .no-gutters {
