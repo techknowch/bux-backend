@@ -39,27 +39,18 @@
     {{-- Include the stylesheet only if the current route is 'contact' --}}
     <link rel="stylesheet" href="{{ asset('assets/css/form.css') }}">
 @endif
-  <link rel="stylesheet" href="bundles/app/clients.0c816fc6.css">
+
+<link rel="preload" href="bundles/app/fonts/Sumana400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="bundles/app/fonts/Sumana700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="bundles/app/fonts/s-icons.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/stylex.css">
   <link rel="stylesheet" href="bundles/app/services.2d9023af.css">
-  <link rel="stylesheet" href="bundles/app/tabs-with-icons.25abfa44.css">
-  <link rel="stylesheet" href="bundles/app/technologies.47811c72.css">
-  <link rel="stylesheet" href="bundles/app/link.d2659507.css">
-  <link rel="stylesheet" href="bundles/app/testimonial.283dd83c.css">
-  <link rel="stylesheet" href="bundles/app/icon-box.a8bad10a.css">
   <link rel="stylesheet" href="bundles/app/recognitions.53de5d46.css">
   <link rel="stylesheet" href="bundles/app/blog.4321664a.css">
   <link rel="stylesheet" href="bundles/app/grid.e7cf97e7.css">
-  <link rel="stylesheet" href="bundles/app/contact-us-template.553332b8.css">
-  <link rel="stylesheet" href="bundles/app/collapsible-list.4daba170.css">
-  <link rel="stylesheet" href="bundles/app/separator-with-image-and-text.98091b12.css">
   <link rel="stylesheet" href="bundles/app/slider-with-banners.ad309978.css">
-  <link rel="stylesheet" href="bundles/app/wysiwyg.11728f7f.css">
-  <link rel="stylesheet" href="bundles/app/image-text.841ec385.css">
   <link rel="stylesheet" href="bundles/app/solution-types.0c03dd5b.css">
-  <link rel="stylesheet" href="bundles/app/case-studies.dfe1cd9a.css">
-  <link rel="stylesheet" href="bundles/app/contact-information.d8e5c87f.css">
-  <link rel="stylesheet" href="bundles/app/html-code.31d6cfe0.css">
-  <link rel="stylesheet" href="bundles/app/image-video-text.0072e3b9.css">
   <link rel="stylesheet" href="bundles/app/home_page.2ba9c976.css">
   @yield('styles')
   <script>
