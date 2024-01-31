@@ -95,90 +95,6 @@
       }
     }
   </style>
-
-  <script>
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments); }; ga.l = +new Date;
-    ga('create', 'UA-37313680-1', 'auto');
-
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ 'website_page_type': 'Home Page' });
-
-    function gtag() { dataLayer.push(arguments); };
-    gtag('config', 'G-HE55HYGEXZ', { 'content_group': 'Home Page' });
-  </script>
-  <!-- Piwik -->
-  <script>
-    window._paq = window._paq || [];
-
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    _paq.push(['setSessionCookieTimeout', 3600]); // 60min, default=30min
-    _paq.push(['setCustomVariable', 2, 'Page Type', 'Home Page', 'page']);
-    _paq.push(['setCustomVariable', 4, 'SEO Keywords Properties', '{"category":"Custom software","topic":"Software Development Company"}', 'page']);
-
-    (function () {
-      var u = 'https://piwik.scnsoft.com/';
-      _paq.push(['setTrackerUrl', u + 'piwik.php']);
-      _paq.push(['setSiteId', 1]);
-      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-      g.type = 'text/javascript'; g.async = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-    })();
-  </script>
-  <!-- End Piwik -->
-  <!--livechat snippet-->
-  <script type="application/javascript">
-    var APP_ID = "u82mdhaf";
-
-    window.intercomSettings = {
-      app_id: APP_ID,
-      show_livechat: 1,
-      livechat_delay: 2000,
-      livechat_mobile_delay: 5000,
-    };
-
-    var w = window; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i;
-
-    _paq.push([function () {
-      Intercom('update', { piwikVisitorId: this.getVisitorId() });
-    }]);
-  </script>
-  <!--/livechat snippet-->
-  <script src="bundles/app/runtime.1ff3c4d6.js" defer></script>
-  <script src="bundles/app/3913.a66acd25.js" defer></script>
-  <script src="bundles/app/6669.8099ae4d.js" defer></script>
-  <script src="bundles/app/3511.5e1b1032.js" defer></script>
-  <script src="bundles/app/2732.18785b94.js" defer></script>
-  <script src="bundles/app/4291.6665c477.js" defer></script>
-  <script src="bundles/app/2400.0ff4ad52.js" defer></script>
-  <script src="bundles/app/main.80022665.js" defer></script>
-  <script src="bundles/app/7908.3ea8fec2.js" defer></script>
-  <script src="bundles/app/clients.be948eb7.js" defer></script>
-  <script src="bundles/app/services.21b9fcf2.js" defer></script>
-  <script src="bundles/app/tabs-with-icons.5de8213a.js" defer></script>
-  <script src="bundles/app/technologies.297a2399.js" defer></script>
-  <script src="bundles/app/link.b01c3056.js" defer></script>
-  <script src="bundles/app/testimonial.dbe78959.js" defer></script>
-  <script src="bundles/app/icon-box.81743402.js" defer></script>
-  <script src="bundles/app/recognitions.a31fbf7e.js" defer></script>
-  <script src="bundles/app/blog.6760751a.js" defer></script>
-  <script src="bundles/app/grid.1454fbb9.js" defer></script>
-  <script src="bundles/app/3587.774c9c80.js" defer></script>
-  <script src="bundles/app/9323.e0f0740d.js" defer></script>
-  <script src="bundles/app/4812.f775e66e.js" defer></script>
-  <script src="bundles/app/5046.f843b0f1.js" defer></script>
-  <script src="bundles/app/7722.a8726cc8.js" defer></script>
-  <script src="bundles/app/contact-us-template.6f08f308.js" defer></script>
-  <script src="bundles/app/collapsible-list.999cd7ae.js" defer></script>
-  <script src="bundles/app/separator-with-image-and-text.9c59932d.js" defer></script>
-  <script src="bundles/app/slider-with-banners.fa7ffc7f.js" defer></script>
-  <script>
-    var _ptg = _ptg || {};
-    _ptg.options = _ptg.options || {};
-
-
-
-  </script>
-  <script src="assetsjs/t" async></script>
   <style>
     .swiper-container {
       width: 1300px;
@@ -395,6 +311,32 @@
           </div>
         </div>
       </div>
+  <script src="bundles/app/runtime.1ff3c4d6.js" defer></script>
+  <script src="bundles/app/3913.a66acd25.js" defer></script>
+  <script src="bundles/app/6669.8099ae4d.js" defer></script>
+  <script src="bundles/app/3511.5e1b1032.js" defer></script>
+  <script src="bundles/app/2732.18785b94.js" defer></script>
+  <script src="bundles/app/4291.6665c477.js" defer></script>
+  <script src="bundles/app/2400.0ff4ad52.js" defer></script>
+  <script src="bundles/app/main.80022665.js" defer></script>
+  <script src="bundles/app/7908.3ea8fec2.js" defer></script>
+  <script src="bundles/app/services.21b9fcf2.js" defer></script>
+  <script src="bundles/app/link.b01c3056.js" defer></script>
+  <script src="bundles/app/icon-box.81743402.js" defer></script>
+  <script src="bundles/app/recognitions.a31fbf7e.js" defer></script>
+  <script src="bundles/app/blog.6760751a.js" defer></script>
+  <script src="bundles/app/grid.1454fbb9.js" defer></script>
+  <script src="bundles/app/3587.774c9c80.js" defer></script>
+  <script src="bundles/app/9323.e0f0740d.js" defer></script>
+  <script src="bundles/app/4812.f775e66e.js" defer></script>
+  <script src="bundles/app/5046.f843b0f1.js" defer></script>
+  <script src="bundles/app/7722.a8726cc8.js" defer></script>
+  <script src="bundles/app/slider-with-banners.fa7ffc7f.js" defer></script>
+  <script>
+    var _ptg = _ptg || {};
+    _ptg.options = _ptg.options || {};
+  </script>
+  <script src="assetsjs/t" async></script>
   </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
