@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Backend\BlogsController;
 use App\Http\Controllers\Backend\HomeController;
+use App\Http\Controllers\CapabilityController;
 use App\Http\Controllers\ConsultationController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
@@ -27,6 +28,7 @@ Route::get('it-resourcing', [FrontendController::class, 'resourcing'])->name('re
 Route::get('cybersecurity', [FrontendController::class, 'cybersecurity'])->name('cybersecurity');
 Route::get('artificial-intelligence', [FrontendController::class, 'ai'])->name('ai');
 Route::post('/consultation', [ConsultationController::class, 'store'])->name('consultation.store');
+Route::get('/{name}',[CapabilityController::class, 'show'])->name('capabilities.show');
 Route::get('/blogs/create', [BlogsController::class,'create'])->name('blog.create');
 Route::post('/blogs/store',[BlogsController::class,'store'])->name('blogs.store');
 

@@ -29,16 +29,16 @@
             </div>
             <div class="col-lg-6">
               <div class="services--grid">
-                <a href="#" class="grid--items">
+                <a href="{{ route('consultancy') }}" class="grid--items">
                   <p>IT Management Consultancy</p>
                 </a>
-                <a href="#" class="grid--items">
+                <a href="{{ route('resourcing') }}" class="grid--items">
                   <p>IT Resourcing</p>
                 </a>
-                <a href="#" class="grid--items">
+                <a href="{{ route('cybersecurity') }}" class="grid--items">
                   <p>Cybersecurity</p>
                 </a>
-                <a href="#" class="grid--items">
+                <a href="{{ route('ai') }}" class="grid--items">
                   <p>Artificial Intelligence</p>
                 </a>
               </div>

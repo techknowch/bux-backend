@@ -4,7 +4,7 @@
 
 <div class="image-section">
   <div class="text-overlay">
-    <p>Components</p>
+    <p>AI</p>
   </div>
 </div>
 

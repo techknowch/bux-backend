@@ -16,7 +16,7 @@
         </p>
 
         <div class="grid">
-            <a href="#" class="grid--items">
+            <a href="{{ route('capabilities.show', ['name' => 'cloud-computing']) }}" class="grid--items">
                 <div class="image-wrapper">
                     <img src="./assets/imgs/capabilities/cloud-computing.webp" alt="">
                 </div>
