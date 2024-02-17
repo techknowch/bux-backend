@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Asset;
 use App\Models\BlogPost;
 use App\Models\BlogPostMeta;
 use App\Models\Category;
@@ -22,6 +23,7 @@ class BlogsController extends Controller
 
     public function store(Request $request)
     {
+        dd($request);
         try {
             $request->validate([
                 'meta_title' => 'required|string|max:255',
@@ -31,6 +33,7 @@ class BlogsController extends Controller
                 'category_id' =>'required|exists:categories,id',
                 'meta_description' => 'required|string',
                 'content' => 'required',
+                'assets.*' => 'image|mimes:jpeg,png,jpg,gif,svg,avif|max:2048',
             ]);
             DB::beginTransaction();
             $blogPostMeta = BlogPostMeta::create([
@@ -46,6 +49,13 @@ class BlogsController extends Controller
             ]);
 
             $blogPost->categories()->attach($request->category_id,['blog_post_meta_id'=> $blogPostMeta->id]);
+
+            foreach($request->file('assets') as $file)
+            {
+                $path = $file->store('assets', 'public');
+                $asset = Asset::create(['path'=>$path]);
+                $blogPost->assets()->attach($asset->id);
+            }
 
             DB::commit();
             return redirect()->route('dashboard')->with('success', 'Blog post created successfully');

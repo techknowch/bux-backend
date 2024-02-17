@@ -21,4 +21,9 @@ class BlogPost extends Model
     {
         return $this->hasOne(BlogPostMeta::class);
     }
+
+    public function assets()
+    {
+        return $this->belongsToMany(Asset::class, 'blog_post_asset', 'blog_post_id', 'asset_id');
+    }
 }

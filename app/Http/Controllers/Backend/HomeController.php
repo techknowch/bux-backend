@@ -10,6 +10,6 @@ class HomeController extends Controller
     //
     public function home()
     {
-        return view('backend.blogs.create');
+        return view('backend.home');
     }
 }
