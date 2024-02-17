@@ -28,9 +28,9 @@ Route::get('it-resourcing', [FrontendController::class, 'resourcing'])->name('re
 Route::get('cybersecurity', [FrontendController::class, 'cybersecurity'])->name('cybersecurity');
 Route::get('artificial-intelligence', [FrontendController::class, 'ai'])->name('ai');
 Route::post('/consultation', [ConsultationController::class, 'store'])->name('consultation.store');
-Route::get('/{name}',[CapabilityController::class, 'show'])->name('capabilities.show');
 Route::get('/blogs/create', [BlogsController::class,'create'])->name('blog.create');
 Route::post('/blogs/store',[BlogsController::class,'store'])->name('blogs.store');
+
 
 Route::middleware([
     'auth:sanctum',
@@ -41,3 +41,6 @@ Route::middleware([
         return view('backend.home');
     })->name('dashboard');
 });
+
+
+Route::get('/{name}',[CapabilityController::class, 'show'])->name('capabilities.show');
