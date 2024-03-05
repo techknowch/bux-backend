@@ -95,7 +95,7 @@
                       </a>
                       <div class="text pl-3">
                         <p>
-                          <span>Address:</span>Wynantskill, NY
+                          <span>Address: </span>Wynantskill, NY
                         </p>
                       </div>
                     </div>
@@ -133,7 +133,7 @@
                       <div class="text pl-3">
                         <p>
                           <span>Phone:</span>
-                          <a href="tel:+5189510353">+518 951 0353</a>
+                          <a href="tel:+5189510353">518 951 0353</a>
                         </p>
                       </div>
                     </div>
