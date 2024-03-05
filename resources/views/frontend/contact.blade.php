@@ -8,7 +8,7 @@
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 col-lg-8 text-center mb-5">
+          <div class="col-lg-6 text-center mb-5">
             <h3 style="font-size: 44px">Need Solutions? Expert Consultancy Here</h3>
           </div>
         </div>
