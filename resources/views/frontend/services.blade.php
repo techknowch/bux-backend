@@ -1,5 +1,7 @@
 @extends("layouts.frontend")
-
+@section('styles')
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+@endsection
 @section("content")
 
 <main
@@ -133,5 +135,43 @@
         </div>
       </section>
     </main>
+
+@endsection
+
+
+@section('scripts')
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const successMessage = "{{ session('success') }}";
+        const errorMessage = "{{ session('error') }}";
+
+        if (successMessage) {
+            Toastify({
+                text: successMessage,
+                duration: 3000,
+                gravity: 'top',
+                close: true,
+                backgroundColor: '#0BDA51',
+                style: {
+                    'font-size': "16px",
+                }
+            }).showToast();
+        } else if (errorMessage) {
+            Toastify({
+                text: errorMessage,
+                duration: 3000,
+                gravity: 'top',
+                close: true,
+                backgroundColor: '#D22B2B',
+                style: {
+                    'font-size': "16px",
+                }
+            }).showToast();
+        }
+
+    });
+</script>
 
 @endsection

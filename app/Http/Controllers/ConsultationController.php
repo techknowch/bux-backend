@@ -34,16 +34,16 @@ class ConsultationController extends Controller
             $consultation = Consultation::create($data);
             DB::commit();
 
-            return redirect()->route('home')->with('success', 'Contact Created Successfully');
+            return back()->with('success', 'Contact Created Successfully');
         }
         catch (QueryException $e)
         {
-            return redirect()->route('home')->with('error', 'Error: ' . $e->getMessage());
+            return back()->with('error', 'Error: ' . $e->getMessage());
         }
         catch (\Exception $e) {
             Log::error($e);
             DB::rollback();
-            return redirect()->route('home')->with('error', 'Error: ' . $e->getMessage());
+            return back()->with('error', 'Error: ' . $e->getMessage());
         }
     }
 }
