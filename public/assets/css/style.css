@@ -187,316 +187,316 @@
 
 @media (min-width: 576px) {
   .col-sm-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
   }
 
   .col-sm-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
   }
 
   .col-sm-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .col-md {
-    -ms-flex-preferred-size: 0;
-    -ms-flex-positive: 1;
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+      -ms-flex-preferred-size: 0;
+      -ms-flex-positive: 1;
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
   }
 
   .col-md-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    max-width: 100%;
-    width: auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      max-width: 100%;
+      width: auto;
   }
 
   .col-md-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
   }
 
   .col-md-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
   }
 
   .col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
   }
 
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
   }
 
   .col-md-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
   }
 
   .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
   }
 
   .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
   }
 
   .col-md-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
   }
 
   .col-md-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
   }
 
   .col-md-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
   }
 
   .col-md-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
   }
 
   .col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
   }
 
   .order-md-0 {
-    -ms-flex-order: 0;
-    order: 0;
+      -ms-flex-order: 0;
+      order: 0;
   }
 
   .order-md-1 {
-    -ms-flex-order: 1;
-    order: 1;
+      -ms-flex-order: 1;
+      order: 1;
   }
 
   .order-md-2 {
-    -ms-flex-order: 2;
-    order: 2;
+      -ms-flex-order: 2;
+      order: 2;
   }
 
   .order-md-3 {
-    -ms-flex-order: 3;
-    order: 3;
+      -ms-flex-order: 3;
+      order: 3;
   }
 
   .offset-md-1 {
-    margin-left: 8.333333%;
+      margin-left: 8.333333%;
   }
 }
 
 @media (min-width: 1024px) {
   .col-lg {
-    -ms-flex-preferred-size: 0;
-    -ms-flex-positive: 1;
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+      -ms-flex-preferred-size: 0;
+      -ms-flex-positive: 1;
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
   }
 
   .col-lg-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
   }
 
   .col-lg-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
   }
 
   .col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
   }
 
   .col-lg-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
   }
 
   .col-lg-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
   }
 
   .col-lg-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
   }
 
   .col-lg-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
   }
 
   .col-lg-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
   }
 
   .col-lg-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
   }
 
   .col-lg-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
   }
 
   .col-lg-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
   }
 
   .col-lg-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
   }
 
   .order-lg-1 {
-    -ms-flex-order: 1;
-    order: 1;
+      -ms-flex-order: 1;
+      order: 1;
   }
 
   .order-lg-2 {
-    -ms-flex-order: 2;
-    order: 2;
+      -ms-flex-order: 2;
+      order: 2;
   }
 
   .offset-lg-0 {
-    margin-left: 0;
+      margin-left: 0;
   }
 
   .offset-lg-1 {
-    margin-left: 8.333333%;
+      margin-left: 8.333333%;
   }
 }
 
 @media (min-width: 1200px) {
   .col-xl {
-    -ms-flex-preferred-size: 0;
-    -ms-flex-positive: 1;
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+      -ms-flex-preferred-size: 0;
+      -ms-flex-positive: 1;
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
   }
 
   .col-xl-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
   }
 
   .col-xl-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
   }
 
   .col-xl-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
   }
 
   .col-xl-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
   }
 
   .col-xl-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
   }
 
   .col-xl-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
   }
 
   .col-xl-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
   }
 
   .col-xl-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
   }
 
   .col-xl-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
   }
 
   .col-xl-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
   }
 
   .col-xl-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
   }
 
   .col-xl-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
   }
 }
 
@@ -523,44 +523,44 @@
 
 @media (min-width: 576px) {
   .d-sm-flex {
-    display: -ms-flexbox !important;
-    display: flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
   }
 }
 
 @media (min-width: 768px) {
   .d-md-none {
-    display: none !important;
+      display: none !important;
   }
 
   .d-md-block {
-    display: block !important;
+      display: block !important;
   }
 
   .d-md-flex {
-    display: -ms-flexbox !important;
-    display: flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
   }
 }
 
 @media (min-width: 1024px) {
   .d-lg-none {
-    display: none !important;
+      display: none !important;
   }
 
   .d-lg-inline-block {
-    display: inline-block !important;
+      display: inline-block !important;
   }
 
   .d-lg-flex {
-    display: -ms-flexbox !important;
-    display: flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
   }
 }
 
 @media (min-width: 1200px) {
   .d-xl-none {
-    display: none !important;
+      display: none !important;
   }
 }
 
@@ -636,37 +636,37 @@
 
 @media (min-width: 768px) {
   .flex-md-row {
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
   }
 
   .flex-md-wrap {
-    -ms-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
   }
 
   .justify-content-md-start {
-    -ms-flex-pack: start !important;
-    justify-content: flex-start !important;
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important;
   }
 }
 
 @media (min-width: 1024px) {
   .flex-lg-row {
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
   }
 
   .justify-content-lg-start {
-    -ms-flex-pack: start !important;
-    justify-content: flex-start !important;
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important;
   }
 }
 
 @media (min-width: 1200px) {
   .flex-xl-row {
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
   }
 }
 
@@ -784,7 +784,7 @@
 
 @media (min-width: 768px) {
   .pr-md-0 {
-    padding-right: 0 !important;
+      padding-right: 0 !important;
   }
 }
 
@@ -882,81 +882,81 @@ label {
 
 @media (min-width: 576px) {
   .text-sm-left {
-    text-align: left !important;
+      text-align: left !important;
   }
 
   .text-sm-right {
-    text-align: right !important;
+      text-align: right !important;
   }
 
   .text-sm-center {
-    text-align: center !important;
+      text-align: center !important;
   }
 }
 
 @media (min-width: 768px) {
   .text-md-left {
-    text-align: left !important;
+      text-align: left !important;
   }
 
   .text-md-right {
-    text-align: right !important;
+      text-align: right !important;
   }
 
   .text-md-center {
-    text-align: center !important;
+      text-align: center !important;
   }
 }
 
 @media (min-width: 992px) {
   .text-lg-left {
-    text-align: left !important;
+      text-align: left !important;
   }
 
   .text-lg-right {
-    text-align: right !important;
+      text-align: right !important;
   }
 
   .text-lg-center {
-    text-align: center !important;
+      text-align: center !important;
   }
 }
 
 @media (min-width: 1200px) {
   .text-xl-left {
-    text-align: left !important;
+      text-align: left !important;
   }
 
   .text-xl-right {
-    text-align: right !important;
+      text-align: right !important;
   }
 
   .text-xl-center {
-    text-align: center !important;
+      text-align: center !important;
   }
 }
 
 @media (max-width: 767px) {
   .hidden-xs {
-    display: none !important;
+      display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
-    display: none !important;
+      display: none !important;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
-    display: none !important;
+      display: none !important;
   }
 }
 
 @media (min-width: 1200px) {
   .hidden-lg {
-    display: none !important;
+      display: none !important;
   }
 }
 
@@ -968,51 +968,51 @@ label {
 
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 1001px;
-    padding: 0 16px;
-    width: auto;
+      max-width: 1001px;
+      padding: 0 16px;
+      width: auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .container {
-    max-width: 1224px;
-    padding: 0 27px;
+      max-width: 1224px;
+      padding: 0 27px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
-    padding: 0 55px;
+      max-width: 1280px;
+      padding: 0 55px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .container {
-    max-width: 1638px;
-    padding: 0 135px;
+      max-width: 1638px;
+      padding: 0 135px;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .container {
-    max-width: 1600px;
-    padding: 0 116px;
+      max-width: 1600px;
+      padding: 0 116px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .container {
-    max-width: 1368px;
-    padding: 0;
+      max-width: 1368px;
+      padding: 0;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .row {
-    margin-left: -8px;
-    margin-right: -8px;
+      margin-left: -8px;
+      margin-right: -8px;
   }
 
   .col,
@@ -1085,8 +1085,8 @@ label {
   .col-xl-11,
   .col-xl-12,
   .col-xl-auto {
-    padding-left: 8px;
-    padding-right: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
   }
 }
 
@@ -1138,7 +1138,7 @@ body.bg-img {
 
 @media (max-width: 767px) {
   body.bg-img {
-    background-image: none !important;
+      background-image: none !important;
   }
 }
 
@@ -1176,35 +1176,35 @@ body.content-only .page-share {
   .microsite.two-levels-menu .page-main,
   .page-main,
   .two-levels-menu .page-main {
-    padding-top: 84px;
+      padding-top: 84px;
   }
 }
 
 @media (max-width: 1279px) {
   .page-main,
   .two-levels-menu .page-main {
-    padding-top: 60px;
+      padding-top: 60px;
   }
 
   .microsite .page-main,
   .microsite.two-levels-menu .page-main {
-    padding-top: 84px;
+      padding-top: 84px;
   }
 }
 
 @media (max-width: 767px) {
   .page-main,
   .two-levels-menu .page-main {
-    padding-top: 56px;
+      padding-top: 56px;
   }
 
   .microsite .page-main,
   .microsite.two-levels-menu .page-main {
-    padding-top: 80px;
+      padding-top: 80px;
   }
 
   .page-main {
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
 }
 
@@ -1214,7 +1214,7 @@ body.content-only .page-share {
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 16px;
+      padding: 0 16px;
   }
 }
 
@@ -1245,8 +1245,8 @@ p {
 
 @media (max-width: 767px) {
   p {
-    font-size: 16px;
-    margin-bottom: 12px;
+      font-size: 16px;
+      margin-bottom: 12px;
   }
 }
 
@@ -1266,7 +1266,7 @@ ul:not([class]) li {
 
 @media (max-width: 767px) {
   ul:not([class]) li {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
 
@@ -1283,7 +1283,7 @@ ul:not([class]) li:before {
 
 @media (max-width: 767px) {
   ul:not([class]) li:before {
-    top: 10px;
+      top: 10px;
   }
 }
 
@@ -1301,7 +1301,7 @@ ol:not([class]) li {
 
 @media (max-width: 767px) {
   ol:not([class]) li {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
 
@@ -1345,14 +1345,14 @@ h1 {
 
 @media (max-width: 1279px) {
   h1 {
-    font-size: 40px;
+      font-size: 40px;
   }
 }
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 32px;
-    line-height: 1.25;
+      font-size: 32px;
+      line-height: 1.25;
   }
 }
 
@@ -1385,19 +1385,19 @@ h2:before {
 
 @media (max-width: 1023px) {
   h2:before {
-    left: -16px;
-    width: 82px;
+      left: -16px;
+      width: 82px;
   }
 }
 
 @media (max-width: 767px) {
   h2:before {
-    height: 72px;
-    width: 64px;
+      height: 72px;
+      width: 64px;
   }
 
   h2 {
-    font-size: 24px;
+      font-size: 24px;
   }
 }
 
@@ -1419,14 +1419,14 @@ h3 {
 
 @media (max-width: 1023px) {
   h3 {
-    font-size: 24px;
+      font-size: 24px;
   }
 }
 
 @media (max-width: 767px) {
   h3 {
-    font-size: 22px;
-    margin: 20px 0;
+      font-size: 22px;
+      margin: 20px 0;
   }
 }
 
@@ -1445,13 +1445,13 @@ h4 {
 
 @media (max-width: 1023px) {
   h4 {
-    font-size: 22px;
+      font-size: 22px;
   }
 }
 
 @media (max-width: 767px) {
   h4 {
-    font-size: 20px;
+      font-size: 20px;
   }
 }
 
@@ -1462,7 +1462,7 @@ h5 {
 
 @media (max-width: 767px) {
   h5 {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
@@ -1485,9 +1485,11 @@ summary::marker {
   font-style: normal;
   font-weight: 300;
   src: local("Open Sans Cyrillic Light"), local("OpenSans-Cyrillic-Light"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.ttf) format("ttf");
+      url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Light-webfont.ttf) format("ttf");
 }
 
 @font-face {
@@ -1496,10 +1498,12 @@ summary::marker {
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans Cyrillic"), local("OpenSans-Cyrillic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.ttf) format("ttf");
+      url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Regular-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1507,12 +1511,14 @@ summary::marker {
   font-family: Open Sans Cyrillic;
   font-style: normal;
   font-weight: 600;
-  src: local("Open Sans Cyrillic Semibold"), local("OpenSans-Cyrillic-Semibold"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.ttf) format("ttf");
+  src: local("Open Sans Cyrillic Semibold"),
+      local("OpenSans-Cyrillic-Semibold"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Semibold-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1521,9 +1527,11 @@ summary::marker {
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Cyrillic Bold"), local("OpenSans-Cyrillic-Bold"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.ttf) format("ttf");
+      url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Bold-webfont.ttf) format("ttf");
 }
 
 @font-face {
@@ -1532,12 +1540,13 @@ summary::marker {
   font-style: normal;
   font-weight: 800;
   src: local("Open Sans Cyrillic Extrabold"),
-    local("OpenSans-Cyrillic-Extrabold"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.ttf) format("ttf");
+      local("OpenSans-Cyrillic-Extrabold"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBold-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1546,13 +1555,13 @@ summary::marker {
   font-style: italic;
   font-weight: 300;
   src: local("Open Sans Cyrillic Light Italic"),
-    local("OpenSansLight-Cyrillic-Italic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.ttf)
-      format("ttf");
+      local("OpenSansLight-Cyrillic-Italic"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-LightItalic-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1561,10 +1570,12 @@ summary::marker {
   font-style: italic;
   font-weight: 400;
   src: local("Open Sans Cyrillic Italic"), local("OpenSans-Cyrillic-Italic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.ttf) format("ttf");
+      url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-Italic-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1573,13 +1584,13 @@ summary::marker {
   font-style: italic;
   font-weight: 600;
   src: local("Open Sans Cyrillic Semibold Italic"),
-    local("OpenSans-Cyrillic-SemiboldItalic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.ttf)
-      format("ttf");
+      local("OpenSans-Cyrillic-SemiboldItalic"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-SemiboldItalic-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1588,13 +1599,13 @@ summary::marker {
   font-style: italic;
   font-weight: 700;
   src: local("Open Sans Cyrillic Bold Italic"),
-    local("OpenSans-Cyrillic-BoldItalic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.ttf)
-      format("ttf");
+      local("OpenSans-Cyrillic-BoldItalic"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-BoldItalic-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1603,13 +1614,13 @@ summary::marker {
   font-style: italic;
   font-weight: 800;
   src: local("Open Sans Cyrillic Extrabold Italic"),
-    local("OpenSans-Cyrillic-ExtraboldItalic"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.woff)
-      format("woff"),
-    url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.ttf)
-      format("ttf");
+      local("OpenSans-Cyrillic-ExtraboldItalic"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-Cyrillic-ExtraBoldItalic-webfont.ttf)
+          format("ttf");
 }
 
 @font-face {
@@ -1674,10 +1685,10 @@ summary::marker {
   font-style: normal;
   font-weight: 300;
   src: local("Open Sans Light"), local("OpenSans-Light"),
-    url(bundles/app/fonts/OpenSans-Light-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Light-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Light-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-Light-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-Light-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-Light-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-Light-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-Light-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1686,10 +1697,10 @@ summary::marker {
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"),
-    url(bundles/app/fonts/OpenSans-Regular-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Regular-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Regular-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-Regular-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-Regular-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-Regular-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-Regular-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-Regular-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1698,10 +1709,10 @@ summary::marker {
   font-style: normal;
   font-weight: 600;
   src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
-    url(bundles/app/fonts/OpenSans-Semibold-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Semibold-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Semibold-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-Semibold-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-Semibold-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-Semibold-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-Semibold-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-Semibold-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1710,10 +1721,10 @@ summary::marker {
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"),
-    url(bundles/app/fonts/OpenSans-Bold-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Bold-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Bold-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-Bold-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-Bold-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-Bold-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-Bold-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-Bold-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1722,10 +1733,10 @@ summary::marker {
   font-style: normal;
   font-weight: 800;
   src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"),
-    url(bundles/app/fonts/OpenSans-ExtraBold-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-ExtraBold-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-ExtraBold-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-ExtraBold-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-ExtraBold-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-ExtraBold-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-ExtraBold-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-ExtraBold-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1734,10 +1745,11 @@ summary::marker {
   font-style: italic;
   font-weight: 300;
   src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"),
-    url(bundles/app/fonts/OpenSans-LightItalic-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-LightItalic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-LightItalic-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-LightItalic-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-LightItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-LightItalic-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-LightItalic-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-LightItalic-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1746,10 +1758,10 @@ summary::marker {
   font-style: italic;
   font-weight: 400;
   src: local("Open Sans Italic"), local("OpenSans-Italic"),
-    url(bundles/app/fonts/OpenSans-Italic-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-Italic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-Italic-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-Italic-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-Italic-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-Italic-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-Italic-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-Italic-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1758,10 +1770,12 @@ summary::marker {
   font-style: italic;
   font-weight: 600;
   src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"),
-    url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-SemiboldItalic-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1770,10 +1784,10 @@ summary::marker {
   font-style: italic;
   font-weight: 700;
   src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
-    url(bundles/app/fonts/OpenSans-BoldItalic-webfont.woff2) format("woff2"),
-    url(bundles/app/fonts/OpenSans-BoldItalic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-BoldItalic-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-BoldItalic-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-BoldItalic-webfont.woff2) format("woff2"),
+      url(bundles/app/fonts/OpenSans-BoldItalic-webfont.woff) format("woff"),
+      url(bundles/app/fonts/OpenSans-BoldItalic-webfont.ttf) format("ttf"),
+      url(bundles/app/fonts/OpenSans-BoldItalic-webfont.eot) format("eot");
 }
 
 @font-face {
@@ -1782,11 +1796,14 @@ summary::marker {
   font-style: italic;
   font-weight: 800;
   src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"),
-    url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.woff2)
-      format("woff2"),
-    url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.woff) format("woff"),
-    url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.ttf) format("ttf"),
-    url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.eot) format("eot");
+      url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.woff2)
+          format("woff2"),
+      url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.woff)
+          format("woff"),
+      url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.ttf)
+          format("ttf"),
+      url(bundles/app/fonts/OpenSans-ExtraBoldItalic-webfont.eot)
+          format("eot");
 }
 
 @font-face {
@@ -1796,9 +1813,9 @@ summary::marker {
   font-weight: 400;
   src: url(bundles/app/fonts/s-icons.eot);
   src: url(bundles/app/fonts/s-icons.eot) format("embedded-opentype"),
-    url(bundles/app/fonts/s-icons.woff) format("woff"),
-    url(bundles/app/fonts/s-icons.ttf) format("truetype"),
-    url(bundles/app/images/s-icons.svg) format("svg");
+      url(bundles/app/fonts/s-icons.woff) format("woff"),
+      url(bundles/app/fonts/s-icons.ttf) format("truetype"),
+      url(bundles/app/images/s-icons.svg) format("svg");
 }
 
 [class*=" icon-s-"],
@@ -1993,7 +2010,7 @@ summary::marker {
 
 @media only screen and (max-width: 767px) {
   .p-simple__content .pimcore_area_page-navigation-menu {
-    margin-top: 20px;
+      margin-top: 20px;
   }
 }
 
@@ -2018,13 +2035,13 @@ summary::marker {
 
 @media only screen and (max-width: 767px) {
   .p-simple__content
-    .pimcore_area_page-navigation-menu
-    .c-table-overflow
-    table
-    td {
-    display: block;
-    margin-bottom: 9px;
-    width: 100%;
+      .pimcore_area_page-navigation-menu
+      .c-table-overflow
+      table
+      td {
+      display: block;
+      margin-bottom: 9px;
+      width: 100%;
   }
 }
 
@@ -2119,8 +2136,8 @@ object.responsive {
 
 @media only screen and (max-width: 768px) {
   .dt-h1 {
-    font-size: 28px;
-    line-height: 1.43;
+      font-size: 28px;
+      line-height: 1.43;
   }
 }
 
@@ -2140,7 +2157,7 @@ object.responsive {
 
 @media only screen and (max-width: 767px) {
   .dt-h3 {
-    font-size: 24px;
+      font-size: 24px;
   }
 }
 
@@ -2152,20 +2169,20 @@ object.responsive {
 
 @media only screen and (min-width: 1023px) {
   .dt-h4 {
-    line-height: 1.27;
+      line-height: 1.27;
   }
 }
 
 @media only screen and (min-width: 1281px) {
   .dt-h4 {
-    font-size: 24px;
-    line-height: 1.17;
+      font-size: 24px;
+      line-height: 1.17;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .dt-h4 {
-    line-height: normal;
+      line-height: normal;
   }
 }
 
@@ -2179,13 +2196,13 @@ object.responsive {
 
 @media only screen and (min-width: 1024px) {
   .dt-h5 {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .dt-h5 {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
@@ -2223,14 +2240,14 @@ object.responsive {
 
 @media only screen and (max-width: 1023px) {
   .dt-quote {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .dt-quote {
-    font-size: 14px;
-    line-height: 1.75;
+      font-size: 14px;
+      line-height: 1.75;
   }
 }
 
@@ -2269,23 +2286,23 @@ object.responsive {
 
 @media only screen and (min-width: 1024px) {
   .dt-bullet {
-    font-size: 18px;
-    font-weight: 600;
-    max-width: calc(50% - 38px);
+      font-size: 18px;
+      font-weight: 600;
+      max-width: calc(50% - 38px);
   }
 }
 
 @media only screen and (max-width: 1023px) {
   .dt-bullet {
-    font-size: 16px;
-    font-weight: 400;
+      font-size: 16px;
+      font-weight: 400;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .dt-bullet {
-    font-size: 14px;
-    font-weight: 600;
+      font-size: 14px;
+      font-weight: 600;
   }
 }
 
@@ -2308,24 +2325,24 @@ object.responsive {
 
 @media only screen and (min-width: 768px) {
   .page-main .a-wysiwyg blockquote {
-    padding: 27px 0 0 100px;
+      padding: 27px 0 0 100px;
   }
 
   .page-main .a-wysiwyg blockquote p {
-    font-size: 22px;
-    line-height: 1.46;
+      font-size: 22px;
+      line-height: 1.46;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .page-main .a-wysiwyg blockquote {
-    padding: 30px 5px 0 100px;
+      padding: 30px 5px 0 100px;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .page-main .a-wysiwyg blockquote {
-    padding: 27px 5px 0 115px;
+      padding: 27px 5px 0 115px;
   }
 }
 
@@ -2395,7 +2412,7 @@ object.responsive {
   text-align: center;
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out 0.1s,
-    border-color 0.2s ease-in-out;
+      border-color 0.2s ease-in-out;
   white-space: normal;
   width: auto;
 }
@@ -2488,7 +2505,7 @@ object.responsive {
   text-align: center;
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out 0.1s,
-    border-color 0.2s ease-in-out;
+      border-color 0.2s ease-in-out;
   white-space: normal;
   width: auto;
 }
@@ -2664,8 +2681,8 @@ object.responsive {
 
 @media only screen and (min-width: 1025px) {
   .btn-link-arrow--hide-label .btn__label {
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in-out;
+      transform: translateX(100%);
+      transition: transform 0.4s ease-in-out;
   }
 }
 
@@ -2731,59 +2748,59 @@ object.responsive {
 @keyframes slide-left-btn {
   0%,
   to {
-    opacity: 1;
-    transform: translateX(0);
+      opacity: 1;
+      transform: translateX(0);
   }
 
   50% {
-    opacity: 1;
-    transform: translateX(-5px);
+      opacity: 1;
+      transform: translateX(-5px);
   }
 }
 
 @keyframes slide-left {
   0%,
   to {
-    transform: translateX(0);
+      transform: translateX(0);
   }
 
   50% {
-    transform: translateX(-5px);
+      transform: translateX(-5px);
   }
 }
 
 @keyframes slide-right {
   0%,
   to {
-    transform: rotate(180deg) translateX(0);
+      transform: rotate(180deg) translateX(0);
   }
 
   50% {
-    transform: rotate(180deg) translateX(-5px);
+      transform: rotate(180deg) translateX(-5px);
   }
 }
 
 @keyframes slide-diagonal {
   0%,
   to {
-    transform: translateX(12px) translateY(8px) translateZ(0) scale(1);
-    z-index: 10;
+      transform: translateX(12px) translateY(8px) translateZ(0) scale(1);
+      z-index: 10;
   }
 
   50% {
-    transform: translateX(14px) translateY(10px);
-    z-index: 10;
+      transform: translateX(14px) translateY(10px);
+      z-index: 10;
   }
 }
 
 @keyframes slide-top-bottom {
   0%,
   to {
-    transform: translateY(0);
+      transform: translateY(0);
   }
 
   50% {
-    transform: translateY(3px);
+      transform: translateY(3px);
   }
 }
 
@@ -2924,8 +2941,8 @@ input.hasError ~ .form-group__tooltip {
 
 @media (min-width: 768px) {
   .page-main #contact-popup-upload .upload-field-area__message-text p {
-    font-size: 14px;
-    line-height: 1.43;
+      font-size: 14px;
+      line-height: 1.43;
   }
 }
 
@@ -3007,8 +3024,8 @@ input.hasError ~ .form-group__tooltip {
 
 @media (min-width: 768px) {
   .upload-field-area__message-text {
-    font-size: 14px;
-    line-height: 1.43;
+      font-size: 14px;
+      line-height: 1.43;
   }
 }
 
@@ -3020,8 +3037,8 @@ input.hasError ~ .form-group__tooltip {
 
 @media (min-width: 768px) {
   .upload-field-area__message-limit {
-    font-size: 12px;
-    line-height: 1.33;
+      font-size: 12px;
+      line-height: 1.33;
   }
 }
 
@@ -3149,17 +3166,17 @@ input.hasError ~ .form-group__tooltip {
 
 @media only screen and (max-width: 768px) {
   .upload-field .tooltip-wrapper .tooltip-message {
-    right: 0;
+      right: 0;
   }
 
   .upload-field .tooltip-wrapper .tooltip-message:before {
-    left: 91%;
+      left: 91%;
   }
 }
 
 @media (min-width: 768px) {
   input[type="file"]#requirements {
-    height: 25px;
+      height: 25px;
   }
 }
 
@@ -3216,14 +3233,14 @@ input.hasError ~ .form-group__tooltip {
 
 @media only screen and (max-width: 1024px) {
   .form-group.select
-    .select2-container--default
-    .select2-selection--single
-    .select2-selection__rendered[title="Land"],
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__rendered[title="Land"],
   .form-group.select
-    .select2-container--default
-    .select2-selection--single
-    .select2-selection__rendered[title^="Country"] {
-    font-size: 12px;
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__rendered[title^="Country"] {
+      font-size: 12px;
   }
 }
 
@@ -3315,9 +3332,9 @@ input.hasError ~ .form-group__tooltip {
   min-height: 30px;
   padding: 0 0 14px 40px;
   -webkit-transition: border-color 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
+      -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
+      -webkit-box-shadow 0.15s ease-in-out;
   width: 100%;
 }
 
@@ -3457,7 +3474,7 @@ label {
 
 @media only screen and (min-width: 768px) {
   label {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
@@ -3483,8 +3500,8 @@ textarea {
   input,
   select,
   textarea {
-    font-size: 18px;
-    padding: 7px 10px;
+      font-size: 18px;
+      padding: 7px 10px;
   }
 }
 
@@ -3536,16 +3553,16 @@ textarea {
 
 @keyframes validAutofill {
   to {
-    background: #fff url(bundles/app/images/check.svg) no-repeat right 10px top
-      16px;
-    background-color: #fff !important;
+      background: #fff url(bundles/app/images/check.svg) no-repeat right 10px
+          top 16px;
+      background-color: #fff !important;
   }
 }
 
 @keyframes invalidAutofill {
   to {
-    background: #fff;
-    background-color: #fff !important;
+      background: #fff;
+      background-color: #fff !important;
   }
 }
 
@@ -3561,7 +3578,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   .md-field {
-    margin-bottom: 30px;
+      margin-bottom: 30px;
   }
 }
 
@@ -3614,7 +3631,7 @@ textarea {
 
 .md-input.valid:not(.hasError) {
   background: #fff url(bundles/app/images/check.svg) no-repeat right 10px top
-    16px;
+      16px;
   border-color: #cdd3d8;
   color: #222;
 }
@@ -3732,7 +3749,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media only screen and (min-width: 768px) {
   .md-error {
-    position: absolute;
+      position: absolute;
   }
 }
 
@@ -3755,7 +3772,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-menu {
-    margin: 0 0 24px;
+      margin: 0 0 24px;
   }
 }
 
@@ -3767,7 +3784,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-menu-wrapper {
-    max-height: calc(100vh - 80px);
+      max-height: calc(100vh - 80px);
   }
 }
 
@@ -3790,13 +3807,13 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-menu-container {
-    min-height: calc(100vh - 80px);
+      min-height: calc(100vh - 80px);
   }
 }
 
 @media (min-width: 768px) and (min-height: 901px) {
   .header-global-menu-container {
-    min-height: 800px;
+      min-height: 800px;
   }
 }
 
@@ -3807,19 +3824,19 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-menu-sidebar {
-    margin-right: 30px;
+      margin-right: 30px;
   }
 }
 
 @media (max-width: 1023px) {
   .header-global-menu-sidebar {
-    margin-right: 20px;
+      margin-right: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-menu-sidebar {
-    display: none;
+      display: none;
   }
 }
 
@@ -3837,15 +3854,15 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-menu-sidebar-item {
-    margin-bottom: 26px;
+      margin-bottom: 26px;
   }
 }
 
 @media (max-width: 1023px) {
   .header-global-menu-sidebar-item {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 20px;
   }
 }
 
@@ -3903,7 +3920,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-menu-content-item {
-    display: block;
+      display: block;
   }
 }
 
@@ -3956,13 +3973,13 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-menu .header-sub-menu-search {
-    margin-bottom: 42px;
+      margin-bottom: 42px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-menu .header-sub-menu-search {
-    margin-bottom: 30px;
+      margin-bottom: 30px;
   }
 }
 
@@ -3972,19 +3989,19 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-menu .header-sub-menu-search-wrap {
-    max-width: 385px;
+      max-width: 385px;
   }
 }
 
 @media (max-width: 1023px) {
   .header-global-menu .header-sub-menu-search-wrap {
-    max-width: 290px;
+      max-width: 290px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-menu .header-sub-menu-search-wrap {
-    max-width: 100%;
+      max-width: 100%;
   }
 }
 
@@ -4007,7 +4024,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-sub-menu-columns {
-    flex-wrap: wrap;
+      flex-wrap: wrap;
   }
 }
 
@@ -4031,9 +4048,9 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-sub-menu-title {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 14px;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 14px;
   }
 }
 
@@ -4044,13 +4061,13 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-sub-menu-title-offset {
-    margin-bottom: 14px;
+      margin-bottom: 14px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-sub-menu-title-offset {
-    display: none;
+      display: none;
   }
 }
 
@@ -4061,26 +4078,26 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-sub-menu-column {
-    flex-basis: 33.33333%;
-    flex-grow: 1 !important;
-    margin-bottom: 22px;
-    max-width: 33.33333%;
-    padding-right: 30px;
+      flex-basis: 33.33333%;
+      flex-grow: 1 !important;
+      margin-bottom: 22px;
+      max-width: 33.33333%;
+      padding-right: 30px;
   }
 }
 
 @media (max-width: 1023px) {
   .header-global-sub-menu-column {
-    margin-bottom: 24px;
+      margin-bottom: 24px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-sub-menu-column {
-    flex-basis: 100%;
-    margin-bottom: 30px;
-    max-width: 100%;
-    padding-right: 0;
+      flex-basis: 100%;
+      margin-bottom: 30px;
+      max-width: 100%;
+      padding-right: 0;
   }
 }
 
@@ -4106,7 +4123,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-sub-menu-link {
-    margin-bottom: 12px;
+      margin-bottom: 12px;
   }
 }
 
@@ -4119,8 +4136,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-sub-menu-link a {
-    font-size: 14px;
-    line-height: 1.43;
+      font-size: 14px;
+      line-height: 1.43;
   }
 }
 
@@ -4153,7 +4170,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global .container {
-    padding: 0 16px;
+      padding: 0 16px;
   }
 }
 
@@ -4165,7 +4182,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-line {
-    display: none;
+      display: none;
   }
 }
 
@@ -4178,7 +4195,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-line .container {
-    padding: 0 16px;
+      padding: 0 16px;
   }
 }
 
@@ -4228,7 +4245,7 @@ input.md-input.noError ~ .md-error ~ i {
 @media (max-width: 1279px) {
   .header-global-line-contacts-email,
   .header-global-line-contacts-phone {
-    display: none;
+      display: none;
   }
 }
 
@@ -4252,7 +4269,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-logo {
-    height: 56px;
+      height: 56px;
   }
 }
 
@@ -4265,8 +4282,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-logo .header-logo-img {
-    height: 24px;
-    width: 131px;
+      height: 24px;
+      width: 131px;
   }
 }
 
@@ -4278,7 +4295,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-logo-separator {
-    display: none;
+      display: none;
   }
 }
 
@@ -4293,7 +4310,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-logo-text {
-    display: none;
+      display: none;
   }
 }
 
@@ -4308,9 +4325,9 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-close-btn {
-    flex: 0 0 24px;
-    height: 24px;
-    width: 24px;
+      flex: 0 0 24px;
+      height: 24px;
+      width: 24px;
   }
 }
 
@@ -4335,10 +4352,10 @@ input.md-input.noError ~ .md-error ~ i {
 @media (max-width: 767px) {
   .header-global-close-btn:after,
   .header-global-close-btn:before {
-    height: 2px;
-    left: 6px;
-    top: calc(50% - 1px);
-    width: 14px;
+      height: 2px;
+      left: 6px;
+      top: calc(50% - 1px);
+      width: 14px;
   }
 }
 
@@ -4359,8 +4376,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-footer-intro-column {
-    flex-direction: column;
-    margin-bottom: 48px;
+      flex-direction: column;
+      margin-bottom: 48px;
   }
 }
 
@@ -4371,7 +4388,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-footer-intro-column-text {
-    margin-right: 0;
+      margin-right: 0;
   }
 }
 
@@ -4385,8 +4402,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1023px) {
   .header-global-footer-intro-column-text-title {
-    font-size: 16px;
-    line-height: 1.5;
+      font-size: 16px;
+      line-height: 1.5;
   }
 }
 
@@ -4399,8 +4416,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-global-footer-intro-column-text-description {
-    font-size: 12px;
-    line-height: 1.67;
+      font-size: 12px;
+      line-height: 1.67;
   }
 }
 
@@ -4416,23 +4433,23 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-global-footer-intro-column-badge {
-    max-height: 80px;
-    max-width: 240px;
+      max-height: 80px;
+      max-width: 240px;
   }
 }
 
 @media (max-width: 1023px) {
   .header-global-footer-intro-column-badge {
-    max-height: 60px;
-    max-width: 180px;
+      max-height: 60px;
+      max-width: 180px;
   }
 }
 
 @media (max-width: 767px) {
   .header-global-footer-intro-column-badge {
-    margin: 6px 14px 0 0;
-    max-height: 70px;
-    max-width: 200px;
+      margin: 6px 14px 0 0;
+      max-height: 70px;
+      max-width: 200px;
   }
 }
 
@@ -4451,8 +4468,8 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 1279px) {
   .header-logo-img {
-    height: 24px;
-    width: 131px;
+      height: 24px;
+      width: 131px;
   }
 }
 
@@ -4495,7 +4512,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media only screen and (max-width: 1279px) {
   .header-logo-tooltip {
-    display: none;
+      display: none;
   }
 }
 
@@ -4508,7 +4525,7 @@ input.md-input.noError ~ .md-error ~ i {
 
 @media (max-width: 767px) {
   .header-logo-separator {
-    display: none;
+      display: none;
   }
 }
 
@@ -4532,8 +4549,8 @@ a.header-logo-site-name:visited {
 
 @media (max-width: 767px) {
   .header-logo-site-name {
-    background-color: transparent;
-    padding: 0 8px;
+      background-color: transparent;
+      padding: 0 8px;
   }
 }
 
@@ -4548,7 +4565,7 @@ a.header-logo-site-name:visited {
 
 @media (max-width: 1279px) {
   .header-menu {
-    display: none;
+      display: none;
   }
 }
 
@@ -4911,11 +4928,11 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-sub-menu-search {
-    margin-top: 22px;
+      margin-top: 22px;
   }
 
   .header-sub-menu-search .container {
-    padding: 0 24px !important;
+      padding: 0 24px !important;
   }
 }
 
@@ -4929,8 +4946,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-sub-menu-search p {
-    font-size: 16px;
-    line-height: 1.63;
+      font-size: 16px;
+      line-height: 1.63;
   }
 }
 
@@ -4940,13 +4957,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1599px) {
   .header-sub-menu-search-wrap {
-    max-width: 470px;
+      max-width: 470px;
   }
 }
 
 @media (max-width: 1279px) {
   .header-sub-menu-search-wrap {
-    margin-left: 0 !important;
+      margin-left: 0 !important;
   }
 }
 
@@ -4970,7 +4987,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-sub-menu-search-inner input {
-    padding-right: 54px;
+      padding-right: 54px;
   }
 }
 
@@ -4985,7 +5002,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-sub-menu-search-icon {
-    right: 20px;
+      right: 20px;
   }
 }
 
@@ -5009,7 +5026,7 @@ a.header-menu-item-label:visited {
   top: 0;
   transform: translateX(105%);
   transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out,
-    visibility 0s 0.4s;
+      visibility 0s 0.4s;
   visibility: hidden;
   width: 276px;
   z-index: 110;
@@ -5017,7 +5034,7 @@ a.header-menu-item-label:visited {
 
 @media (min-width: 1280px) {
   .header-menu-mobile {
-    display: none !important;
+      display: none !important;
   }
 }
 
@@ -5151,7 +5168,7 @@ a.header-menu-item-label:visited {
 
 @media (min-width: 1280px) {
   .header-menu-mobile-shadow {
-    display: none !important;
+      display: none !important;
   }
 }
 
@@ -5277,7 +5294,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .header-search form {
-    margin-left: 4px;
+      margin-left: 4px;
   }
 }
 
@@ -5316,7 +5333,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .header.search-active .header-logo {
-    display: none;
+      display: none;
   }
 }
 
@@ -5350,38 +5367,38 @@ a.header-menu-item-label:visited {
   .microsite .header,
   .microsite.two-levels-menu .header,
   .two-levels-menu .header {
-    height: 84px;
+      height: 84px;
   }
 }
 
 @media (max-width: 1279px) {
   .header,
   .two-levels-menu .header {
-    height: 60px;
+      height: 60px;
   }
 
   .microsite .header,
   .microsite.two-levels-menu .header {
-    height: 84px;
+      height: 84px;
   }
 }
 
 @media (max-width: 767px) {
   .header,
   .two-levels-menu .header {
-    height: 56px;
+      height: 56px;
   }
 
   .microsite .header,
   .microsite.two-levels-menu .header {
-    height: 80px;
+      height: 80px;
   }
 }
 
 @media (min-width: 1920px) {
   .header.header-transparent {
-    background-color: transparent;
-    box-shadow: none;
+      background-color: transparent;
+      box-shadow: none;
   }
 }
 
@@ -5399,13 +5416,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-container {
-    height: 100%;
+      height: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .header-container {
-    padding: 0 16px;
+      padding: 0 16px;
   }
 }
 
@@ -5418,7 +5435,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-row {
-    justify-content: space-between;
+      justify-content: space-between;
   }
 }
 
@@ -5439,7 +5456,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-burger-btn {
-    display: block;
+      display: block;
   }
 }
 
@@ -5474,8 +5491,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-phone {
-    align-items: center;
-    display: flex;
+      align-items: center;
+      display: flex;
   }
 }
 
@@ -5490,7 +5507,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .header-phone i {
-    display: block;
+      display: block;
   }
 }
 
@@ -5501,7 +5518,7 @@ a.header-menu-item-label:visited {
 @media (max-width: 767px) {
   .header-phone-text,
   .header-phone img {
-    display: none;
+      display: none;
   }
 }
 
@@ -5512,7 +5529,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header-yellow-buttons {
-    display: none;
+      display: none;
   }
 }
 
@@ -5560,10 +5577,10 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .header:not(.menu-mobile-active)
-    .header-yellow-button:before
-    .header:not(.menu-mobile-active)
-    .header-yellow-button:after {
-    animation: none;
+      .header-yellow-button:before
+      .header:not(.menu-mobile-active)
+      .header-yellow-button:after {
+      animation: none;
   }
 }
 
@@ -5577,7 +5594,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .two-levels-menu .header.search-active .header-menu {
-    display: none;
+      display: none;
   }
 }
 
@@ -5588,8 +5605,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .two-levels-menu .header-row:first-child {
-    height: 100%;
-    margin: 0;
+      height: 100%;
+      margin: 0;
   }
 }
 
@@ -5611,7 +5628,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .two-levels-menu .header-search {
-    margin-left: 0;
+      margin-left: 0;
   }
 }
 
@@ -5621,69 +5638,69 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .two-levels-menu .header-search form input[type="text"] {
-    padding: 9px 13px;
+      padding: 9px 13px;
   }
 }
 
 @keyframes yellow-button-pulse-1 {
   0%,
   91.25% {
-    opacity: 1;
-    transform: scale(1);
+      opacity: 1;
+      transform: scale(1);
   }
 
   93.12% {
-    opacity: 0.8;
+      opacity: 0.8;
   }
 
   95% {
-    opacity: 0.2;
-    transform: scale(1.2, 1.6);
+      opacity: 0.2;
+      transform: scale(1.2, 1.6);
   }
 
   95.01% {
-    opacity: 0;
+      opacity: 0;
   }
 
   95.02%,
   96.25% {
-    opacity: 1;
-    transform: scale(1);
+      opacity: 1;
+      transform: scale(1);
   }
 
   98.12% {
-    opacity: 0.8;
+      opacity: 0.8;
   }
 
   99.99% {
-    opacity: 0.2;
+      opacity: 0.2;
   }
 
   to {
-    opacity: 0;
-    transform: scale(1.2, 1.6);
+      opacity: 0;
+      transform: scale(1.2, 1.6);
   }
 }
 
 @keyframes yellow-button-pulse-2 {
   0%,
   93.75% {
-    opacity: 1;
-    transform: scale(1);
+      opacity: 1;
+      transform: scale(1);
   }
 
   95.62% {
-    opacity: 0.8;
+      opacity: 0.8;
   }
 
   97.5% {
-    opacity: 0.2;
+      opacity: 0.2;
   }
 
   97.51%,
   to {
-    opacity: 0;
-    transform: scale(1.2, 1.6);
+      opacity: 0;
+      transform: scale(1.2, 1.6);
   }
 }
 
@@ -5694,7 +5711,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 900px) {
   .footer-logo {
-    flex: 1 1 100%;
+      flex: 1 1 100%;
   }
 }
 
@@ -5809,7 +5826,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .footer-contacts-call-tooltip {
-    width: 330px;
+      width: 330px;
   }
 }
 
@@ -5865,7 +5882,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .footer-contacts-call-tooltip-form-row {
-    display: block;
+      display: block;
   }
 }
 
@@ -5878,8 +5895,9 @@ a.header-menu-item-label:visited {
 }
 
 @media (max-width: 767px) {
-  .footer-contacts-call-tooltip-form-row .form-input-wrapper:not(:last-child) {
-    margin: 0 0 16px;
+  .footer-contacts-call-tooltip-form-row
+      .form-input-wrapper:not(:last-child) {
+      margin: 0 0 16px;
   }
 }
 
@@ -5949,13 +5967,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-contacts {
-    flex: 1 1 auto;
+      flex: 1 1 auto;
   }
 }
 
 @media (max-width: 900px) {
   .footer-contacts {
-    margin-top: 44px;
+      margin-top: 44px;
   }
 }
 
@@ -5974,24 +5992,24 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-contacts-links {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: auto;
-    max-width: 644px;
-    padding-left: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: auto;
+      max-width: 644px;
+      padding-left: 24px;
   }
 }
 
 @media (max-width: 900px) {
   .footer-contacts-links {
-    margin-left: 0;
-    padding-left: 0;
+      margin-left: 0;
+      padding-left: 0;
   }
 }
 
 @media (max-width: 680px) {
   .footer-contacts-links {
-    display: block;
+      display: block;
   }
 }
 
@@ -6009,11 +6027,11 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-contacts-links-item {
-    max-width: unset;
+      max-width: unset;
   }
 
   .footer-contacts-links-item:nth-child(odd) {
-    flex: 0 0 58%;
+      flex: 0 0 58%;
   }
 }
 
@@ -6023,13 +6041,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1439px) {
   .footer-contacts-links-item:first-child {
-    margin-left: 4%;
+      margin-left: 4%;
   }
 }
 
 @media (max-width: 1279px) {
   .footer-contacts-links-item:first-child {
-    margin-left: 0;
+      margin-left: 0;
   }
 }
 
@@ -6081,8 +6099,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1023px) {
   .footer-contacts.addresses-count-2 {
-    flex: 1 1 100%;
-    margin-top: 44px;
+      flex: 1 1 100%;
+      margin-top: 44px;
   }
 }
 
@@ -6093,14 +6111,14 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1023px) {
   .footer-contacts.addresses-count-2 .footer-contacts-rows {
-    justify-content: flex-start;
+      justify-content: flex-start;
   }
 }
 
 @media (max-width: 680px) {
   .footer-contacts.addresses-count-2 .footer-contacts-rows {
-    display: block;
-    margin-bottom: -30px;
+      display: block;
+      margin-bottom: -30px;
   }
 }
 
@@ -6111,13 +6129,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1023px) {
   .footer-contacts.addresses-count-2 .footer-contacts-row {
-    margin-right: auto;
+      margin-right: auto;
   }
 }
 
 @media (max-width: 680px) {
   .footer-contacts.addresses-count-2 .footer-contacts-row {
-    padding-bottom: 30px;
+      padding-bottom: 30px;
   }
 }
 
@@ -6128,14 +6146,14 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1023px) {
   .footer-contacts.addresses-count-2 .footer-contacts-links {
-    margin-left: 0;
-    padding-left: 0;
+      margin-left: 0;
+      padding-left: 0;
   }
 }
 
 @media (max-width: 1279px) {
   .footer-contacts.addresses-count-2 .footer-contacts-links-item {
-    max-width: 270px;
+      max-width: 270px;
   }
 }
 
@@ -6153,7 +6171,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 680px) {
   .footer-links {
-    display: block;
+      display: block;
   }
 }
 
@@ -6184,15 +6202,15 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-badges {
-    flex: 1 1 100%;
-    margin-left: 0;
-    margin-top: 44px;
+      flex: 1 1 100%;
+      margin-left: 0;
+      margin-top: 44px;
   }
 }
 
 @media (max-width: 680px) {
   .footer-badges {
-    flex-wrap: wrap;
+      flex-wrap: wrap;
   }
 }
 
@@ -6252,7 +6270,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 680px) {
   .footer-copyright {
-    width: 100%;
+      width: 100%;
   }
 }
 
@@ -6284,8 +6302,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 680px) {
   .footer-language {
-    margin-left: 0;
-    margin-top: 16px;
+      margin-left: 0;
+      margin-top: 16px;
   }
 }
 
@@ -6364,13 +6382,13 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-content {
-    padding-bottom: 52px;
+      padding-bottom: 52px;
   }
 }
 
 @media (max-width: 680px) {
   .footer-content {
-    padding-bottom: 44px;
+      padding-bottom: 44px;
   }
 }
 
@@ -6381,7 +6399,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-row {
-    flex-wrap: wrap;
+      flex-wrap: wrap;
   }
 }
 
@@ -6391,7 +6409,7 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1279px) {
   .footer-row:not(:last-child) {
-    margin-bottom: 44px;
+      margin-bottom: 44px;
   }
 }
 
@@ -6402,7 +6420,7 @@ a.header-menu-item-label:visited {
 
 @media only screen and (min-width: 1200px) {
   .breadcrumbs {
-    margin-top: 40px;
+      margin-top: 40px;
   }
 }
 
@@ -6415,15 +6433,15 @@ a.header-menu-item-label:visited {
 
 @media only screen and (min-width: 1200px) {
   .breadcrumbs__list {
-    padding: 0 0 16px;
+      padding: 0 0 16px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .breadcrumbs__list {
-    overflow-x: auto;
-    padding-bottom: 12px !important;
-    white-space: nowrap;
+      overflow-x: auto;
+      padding-bottom: 12px !important;
+      white-space: nowrap;
   }
 }
 
@@ -6473,24 +6491,24 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 1599px) {
   .microsite .header-logo-img {
-    height: 32px;
-    width: 174px;
+      height: 32px;
+      width: 174px;
   }
 }
 
 @media (max-width: 767px) {
   .microsite .header-logo-img {
-    display: none;
+      display: none;
   }
 
   .microsite .header-logo-img-small {
-    display: block;
+      display: block;
   }
 }
 
 @media (max-width: 1279px) {
   .microsite .header-global-line {
-    display: block;
+      display: block;
   }
 }
 
@@ -6558,7 +6576,7 @@ a.header-menu-item-label:visited {
 .waypoint.waypoint-reveal .step-in-right {
   transform: translate(0);
   transition: opacity 1s cubic-bezier(0.23, 1, 0.32, 1) 0.5s,
-    transform 2s cubic-bezier(0.23, 1, 0.32, 1);
+      transform 2s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .waypoint.waypoint-reveal .step-out-right {
@@ -6584,7 +6602,7 @@ a.header-menu-item-label:visited {
   opacity: 1;
   transform: scale(1);
   transition: opacity 0.2s linear,
-    transform 0.2s cubic-bezier(0.175, 0.285, 0.32, 1.275);
+      transform 0.2s cubic-bezier(0.175, 0.285, 0.32, 1.275);
 }
 
 .waypoint .step-in:first-child {
@@ -7585,7 +7603,7 @@ a.header-menu-item-label:visited {
   position: absolute;
   top: 0;
   transition: opacity 0.2s ease-out, transform 0.2s ease-out,
-    color 0.1s ease-in-out;
+      color 0.1s ease-in-out;
 }
 
 .form-element-error {
@@ -7861,8 +7879,8 @@ a.header-menu-item-label:visited {
 
 @media (max-width: 767px) {
   .form-calendar-input {
-    height: 506px;
-    width: 100%;
+      height: 506px;
+      width: 100%;
   }
 }
 
@@ -8001,8 +8019,15 @@ a.header-menu-item-label:visited {
   position: absolute;
   top: 50%;
   left: 22%;
-  font-size: 50px;
+  font-size: 42px;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-overlay p {
+      font-size: 26px;
+      left: 50%;
+  }
 }
