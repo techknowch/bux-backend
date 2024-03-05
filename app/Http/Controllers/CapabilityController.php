@@ -10,6 +10,10 @@ class CapabilityController extends Controller
     //
     public function show($name)
     {
+        if($name == 'ai')
+        {
+            $name = 'Artificial Intelligence';
+        }
         $formattedName = ucwords(str_replace('-', ' ', $name));
         $capability = Capability::where('name',$formattedName)->first();
         if(!$capability) {
