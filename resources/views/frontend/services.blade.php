@@ -49,7 +49,7 @@
       <section id="consultation">
         <div class="container">
           <h2 class="a-section__title h2 step-up 1 ">
-            <span id="Awards" class="not-hover-link" name="Awards">Get in Touch with us</span>
+            <span id="Awards" class="not-hover-link" name="Awards">Schedule a time for consultancy</span>
           </h2>
         </div>
         <div class="consultation--container">
