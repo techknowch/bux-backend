@@ -1000,20 +1000,20 @@
                 <form action="{{ route('consultation.store') }}" method="POST">
                   @csrf
                   <div class="input--grid">
-                    <input type="text" name="first_name" placeholder="First Name">
-                    <input type="text" name="last_name" placeholder="Last Name">
-                    <input type="number" name="phone_number" placeholder="Phone Number">
-                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="text" name="first_name" placeholder="First Name" required>
+                    <input type="text" name="last_name" placeholder="Last Name" required>
+                    <input type="number" name="phone_number" placeholder="Phone Number" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
                   </div>
                   <div class="flex--form">
-                    <select name="service_type" id="">
+                    <select name="service_type" id="" required>
                       <option value="" selected disabled>Service Type</option>
                       <option value="IT Management Consultancy">IT Management Consultancy</option>
                       <option value="IT Resourcing">IT Resourcing</option>
                       <option value="Cybersecurity">Cybersecurity</option>
                       <option value="Artificial Intelligence">Artificial Intelligence</option>
                     </select>
-                    <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="3" placeholder="Message" required></textarea>
                     <div>
                       <input type="submit" class="form-btn-style-1" value="Submit"></a>
                     </div>
