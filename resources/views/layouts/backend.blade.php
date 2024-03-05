@@ -93,14 +93,14 @@
                         <span class="d-flex align-items-center">
                             <img class="rounded-circle header-profile-user" src="{{ asset('assets/images/users/avatar-1.jpg') }}" alt="Header Avatar">
                             <span class="text-start ms-xl-2">
-                                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Anna Adame</span>
-                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">@auth {{ ucfirst(auth()->user()->name) }} @endauth</span>
+                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Admin</span>
                             </span>
                         </span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-end">
                         <!-- item-->
-                        <h6 class="dropdown-header">Welcome Anna!</h6>
+                        <h6 class="dropdown-header">Welcome @auth {{ ucfirst(auth()->user()->name) }} @endauth!</h6>
                         <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="pages-profile-settings.html"><span class="badge bg-success-subtle text-success mt-1 float-end">New</span><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
@@ -180,12 +180,13 @@
                         <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-pages">Blogs</span></li>
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarPages">
-                                <i class="ri-pages-line"></i> <span data-key="t-pages">Blog Posts</span>
+                                <i class=" ri-reactjs-line"></i> <span data-key="t-pages">Blog Posts</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarPages">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
                                         <a href="{{ route('blog.create') }}" class="nav-link" data-key="t-starter"> Add Blog Posts </a>
+                                        <a href="{{ route('blogs.view') }}" class="nav-link" data-key="t-starter"> View All Blog Posts </a>
                                     </li>
                                 </ul>
                             </div>
@@ -216,11 +217,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © Velzon.
+                            <script>document.write(new Date().getFullYear())</script> © Bux Businesses.
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by Themesbrand
+                                Design & Develop by IBDA
                             </div>
                         </div>
                     </div>
@@ -1185,9 +1186,9 @@
                 <div class="col-6">
                     <button type="button" class="btn btn-light w-100" id="reset-layout">Reset</button>
                 </div>
-                <div class="col-6">
+                <!-- <div class="col-6">
                     <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn btn-primary w-100">Buy Now</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
