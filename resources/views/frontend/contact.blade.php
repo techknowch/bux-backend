@@ -27,19 +27,19 @@
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="name">First Name</label>
-                            <input type="text" class="form-control" name="first_name" id="name" placeholder="First Name" required>
+                            <input type="text" class="form-control" name="first_name" id="name" required placeholder="First Name" />
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="last_name">Last Name</label>
-                            <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name" required>
+                            <input type="text" class="form-control" name="last_name" id="last_name" required placeholder="Last Name">
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="email">Email Address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                            <input type="email" class="form-control" name="email" id="email" required placeholder="Email" />
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
