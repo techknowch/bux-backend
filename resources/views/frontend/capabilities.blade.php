@@ -144,6 +144,22 @@
                     <p class="capeabilities-title">SOX and Regulatory Compliance</p>
                 </div>
             </a>
+            <a href="{{ route('capabilities.show', ['name' => 'company-intranet']) }}" class="grid--items">
+                <div class="image-wrapper">
+                    <img src="./assets/imgs/capabilities/regulatory.jpg" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p class="capeabilities-title">Company Intranet</p>
+                </div>
+            </a>
+            <a href="{{ route('capabilities.show', ['name' => 'ai']) }}" class="grid--items">
+                <div class="image-wrapper">
+                    <img src="./assets/imgs/capabilities/regulatory.jpg" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p class="capeabilities-title">Artificial Intelligence</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
