@@ -38,12 +38,12 @@ class ConsultationController extends Controller
         }
         catch (QueryException $e)
         {
-            return back()->with('error', 'Error: ' . $e->getMessage());
+            return back()->with('error', 'Error: ' . $e->getMessage())->withInput();
         }
         catch (\Exception $e) {
             Log::error($e);
             DB::rollback();
-            return back()->with('error', 'Error: ' . $e->getMessage());
+            return back()->with('error', 'Error: ' . $e->getMessage())->withInput();
         }
     }
 }

@@ -31,31 +31,31 @@
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="name">First Name</label>
-                            <input type="text" class="form-control" name="first_name" id="name" required placeholder="First Name" />
+                            <input type="text" class="form-control" name="first_name" id="name" required placeholder="First Name" value="{{ old('first_name') }}" />
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="last_name">Last Name</label>
-                            <input type="text" class="form-control" name="last_name" id="last_name" required placeholder="Last Name">
+                            <input type="text" class="form-control" name="last_name" id="last_name" required placeholder="Last Name" value="{{ old('last_name') }}" />
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="email">Email Address</label>
-                            <input type="email" class="form-control" name="email" id="email" required placeholder="Email" />
+                            <input type="email" class="form-control" name="email" id="email" required placeholder="Email" value="{{ old('email') }}" />
                           </div>
                         </div>
                         <div class="col-lg-6" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="phone">Phone</label>
-                            <input type="number" class="form-control" name="phone_number" id="phone" placeholder="Phone Number" required>
+                            <input type="number" class="form-control" name="phone_number" id="phone" placeholder="Phone Number" value="{{ old('phone_number') }}" required>
                           </div>
                         </div>
                         <div class="col-lg-12" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="subject">Subject</label>
-                            <select name="service_type" id="" required>
+                            <select name="service_type" required>
                             <option value="" selected disabled>Service Type</option>
                             <option value="IT Management Consultancy">IT Management Consultancy</option>
                             <option value="IT Resourcing">IT Resourcing</option>
@@ -67,7 +67,7 @@
                         <div class="col-md-12" style="padding-bottom: 25px;">
                           <div class="form-group">
                             <label class="label" for="#">Message</label>
-                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required>{{ old('message') }}</textarea>
                           </div>
                         </div>
                         <div class="col-md-12">
