@@ -146,7 +146,7 @@
             </a>
             <a href="{{ route('capabilities.show', ['name' => 'company-intranet']) }}" class="grid--items">
                 <div class="image-wrapper">
-                    <img src="./assets/imgs/capabilities/regulatory.jpg" alt="">
+                    <img src="./assets/imgs/capabilities/intranet.webp" alt="">
                 </div>
                 <div class="text-wrapper">
                     <p class="capeabilities-title">Company Intranet</p>
@@ -154,7 +154,7 @@
             </a>
             <a href="{{ route('capabilities.show', ['name' => 'ai']) }}" class="grid--items">
                 <div class="image-wrapper">
-                    <img src="./assets/imgs/capabilities/regulatory.jpg" alt="">
+                    <img src="./assets/imgs/capabilities/ai.webp" alt="">
                 </div>
                 <div class="text-wrapper">
                     <p class="capeabilities-title">Artificial Intelligence</p>
