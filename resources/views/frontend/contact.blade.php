@@ -57,10 +57,10 @@
                             <label class="label" for="subject">Subject</label>
                             <select name="service_type" required>
                             <option value="" selected disabled>Service Type</option>
-                            <option value="IT Management Consultancy" {{ old('service_type', $blogPost->service_type) == "IT Management Consultancy" ? 'selected' : '' }}>IT Management Consultancy</option>
-                            <option value="IT Resourcing" {{ old('service_type', $blogPost->service_type) == "IT Resourcing" ? 'selected' : '' }}>IT Resourcing</option>
-                            <option value="Cybersecurity" {{ old('service_type', $blogPost->service_type) == "Cybersecurity" ? 'selected' : '' }}>Cybersecurity</option>
-                            <option value="Artificial Intelligence" {{ old('service_type', $blogPost->service_type) == "Artificial Intelligence" ? 'selected' : '' }}>Artificial Intelligence</option>
+                            <option value="IT Management Consultancy" {{ old('service_type' ) == "IT Management Consultancy" ? 'selected' : '' }}>IT Management Consultancy</option>
+                            <option value="IT Resourcing" {{ old('service_type' ) == "IT Resourcing" ? 'selected' : '' }}>IT Resourcing</option>
+                            <option value="Cybersecurity" {{ old('service_type' ) == "Cybersecurity" ? 'selected' : '' }}>Cybersecurity</option>
+                            <option value="Artificial Intelligence" {{ old('service_type' ) == "Artificial Intelligence" ? 'selected' : '' }}>Artificial Intelligence</option>
                             </select>
                           </div>
                         </div>
