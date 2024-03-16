@@ -45,6 +45,7 @@ Route::middleware([
     Route::delete('/blogs/{id}', [BlogsController::class,'destroy'])->name('blogs.destroy');
     Route::get('/blogs/{id}', [BlogsController::class,'edit'])->name('blogs.edit');
     Route::put('/blogs/{id}', [BlogsController::class,'update'])->name('blogs.update');
+    Route::get('/leads',[ConsultationController::class,'show'])->name('leads.show');
 });
 
 

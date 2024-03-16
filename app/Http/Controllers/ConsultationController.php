@@ -46,4 +46,10 @@ class ConsultationController extends Controller
             return back()->with('error', 'Error: ' . $e->getMessage())->withInput();
         }
     }
+
+    public function show()
+    {
+        $leads = Consultation::all();
+        return view('backend.leads.index',compact('leads'));
+    }
 }
