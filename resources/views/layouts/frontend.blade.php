@@ -16,7 +16,7 @@
   <meta property="og:url" content="{{ route('home') }}">
   <meta property="og:description"
     content="A leading software development company 🏆 3,600+ completed projects. High-quality software delivered on time. 1,220+ satisfied customers.">
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="index">
   <link rel="preload" href="bundles/app/fonts/OpenSans-Regular-webfont.woff2" as="font" type="font/woff2"
     crossorigin="anonymous">
   <link rel="preload" href="bundles/app/fonts/OpenSans-Semibold-webfont.woff2" as="font" type="font/woff2"
